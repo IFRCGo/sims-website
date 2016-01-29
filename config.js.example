@@ -1,0 +1,13 @@
+// config.js is not part of the repository but should be deployed with the application and contain deployment-specific settings
+// there is a config.js.example file that should match the structure and properties of this file that IS checked in to the repo
+
+
+var settings = {}
+
+settings.application = {
+	port: 3000,
+	prjfolder: "",
+	dboxpath: ""
+}
+
+module.exports = settings;

@@ -1,0 +1,41 @@
+var express = require('express');
+var path = require('path');
+var exphbs  = require('express-handlebars');
+var localConfig = require('./config');
+
+var app = express();
+var hbs = exphbs.create({
+  defaultLayout: 'main',
+  helpers: {
+    json: function(context) {
+			return JSON.stringify(context);
+		}
+  }
+});
+
+app.engine('handlebars', hbs.engine);
+app.set('view engine', 'handlebars');
+
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/docs', express.static(path.join(localConfig.application.dboxpath,localConfig.application.prjfolder)));
+
+var FolderParse = require('./routes/folderParse.js');
+var folderparse = new FolderParse();
+
+app.get('/files',function(req,res) {
+		folderparse.retrieveFiles(function(err,data){
+			res.send(data);
+		})
+})
+
+
+app.get('/',function(req,res) {
+    res.render('home', {
+      // opts:localConfig.page,
+    });
+})
+
+
+app.listen(localConfig.application.port, function(){
+  console.log('Listening on port '+localConfig.application.port);
+});
