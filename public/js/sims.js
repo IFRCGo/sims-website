@@ -65,7 +65,7 @@ function buildToolkit(){
     }
 
     data.sort(function(a,b){ return d3.descending(a.fullpath, b.fullpath); })
-    for(var i=0; i<test.length; i++){
+    for(var i=0; i<data.length; i++){
       if(systemFile(data[i].basename) === false){
         var thisHtml = '<li>' + typeIcon(data[i].ext) +
           ' &nbsp;<a href="docs' + data[i].dboxpathparts.slice(1).join('/') + '/' + data[i].basename + '" download>' +
