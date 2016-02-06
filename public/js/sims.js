@@ -68,7 +68,9 @@ function buildToolkit(){
     for(var i=0; i<data.length; i++){
       if(systemFile(data[i].basename) === false){
         var thisHtml = '<li>' + typeIcon(data[i].ext) +
-          ' &nbsp;<a href="docs/' + data[i].dboxpathparts.slice(1).join('/') + '/' + data[i].basename + '" download>' +
+          ' &nbsp;<a target="_blank" href="docs/' +
+          (data[i].dboxpathparts.length > 1) ? data[i].dboxpathparts.slice(1).join('/') + '/' : '';
+        thisHtml += data[i].basename + '" download>' +
           data[i].basename.slice(0,data[i].basename.indexOf(data[i].ext)) + '</a></li>';
         $('[data-toolkitpath="' + data[i].dboxpathparts.join('/') + '"]').children('ul').prepend(thisHtml);
       }
