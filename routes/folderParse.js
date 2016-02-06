@@ -17,7 +17,7 @@ FolderParse.prototype.retrieveFiles = function(cb){
       var fileArray = [];
       for(var i = 0; i < list.length; i++){
         var fileObject = {
-          "name" : path.parse(list[i]).name,
+          "basename" : path.basename(list[i]),
           "ext": path.extname(list[i]),
           "dboxpath": path.dirname(list[i]).slice(list[i].indexOf(localConfig.application.prjfolder)),
           "dboxpathparts": path.dirname(list[i]).slice(list[i].indexOf(localConfig.application.prjfolder)).split(path.sep),

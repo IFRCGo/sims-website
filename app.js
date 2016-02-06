@@ -31,7 +31,7 @@ app.get('/files',function(req,res) {
 
 app.get('/',function(req,res) {
     res.render('home', {
-      // opts:localConfig.page,
+      opts:localConfig.application,
     });
 })
 

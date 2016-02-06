@@ -1,0 +1,35 @@
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.no-margin {
+  margin: 0;
+}
+.card {
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-clip: padding-box;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100px;
+}
+.card-logo {
+  padding: 12px 12px 6px 12px;
+}
+.card-text {
+  padding: 6px 12px 12px 12px;
+}
+
+.card-logo.dhn {
+  background: #B3130B;
+}
+.card-logo.hid {
+  background: #79CFDF;
+}
+
+
+#toolkit ul {
+  list-style: none;
+}
