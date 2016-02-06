@@ -3,28 +3,28 @@
 var systemFile = function(filename){ return filename.startsWith('.'); };
 var typeIcon = function(extension){
   switch(extension) {
-    case "doc":
-    case "docx":
+    case ".doc":
+    case ".docx":
       return '<i class="fa fa-fw fa-file-word-o"></i> '
       break;
-    case "jpeg":
-    case "jpg":
-    case "png":
+    case ".jpeg":
+    case ".jpg":
+    case ".png":
       return '<i class="fa fa-fw fa-file-image-o"></i> '
       break;
-    case "pdf":
+    case ".pdf":
       return '<i class="fa fa-fw fa-file-pdf-o"></i> '
       break;
-    case "ppt":
-    case "pptx":
+    case ".ppt":
+    case ".pptx":
       return '<i class="fa fa-fw fa-file-powerpoint-o"></i> '
       break;
-    case "xls":
-    case "xlsm":
-    case "xlsx":
+    case ".xls":
+    case ".xlsm":
+    case ".xlsx":
       return '<i class="fa fa-fw fa-file-excel-o"></i> '
       break;
-    case "zip":
+    case ".zip":
       return '<i class="fa fa-fw fa-file-archive-o"></i> '
       break;
     default:
@@ -68,7 +68,7 @@ function buildToolkit(){
     for(var i=0; i<data.length; i++){
       if(systemFile(data[i].basename) === false){
         var thisHtml = '<li>' + typeIcon(data[i].ext) +
-          ' &nbsp;<a href="docs' + data[i].dboxpathparts.slice(1).join('/') + '/' + data[i].basename + '" download>' +
+          ' &nbsp;<a href="docs/' + data[i].dboxpathparts.slice(1).join('/') + '/' + data[i].basename + '" download>' +
           data[i].basename.slice(0,data[i].basename.indexOf(data[i].ext)) + '</a></li>';
         $('[data-toolkitpath="' + data[i].dboxpathparts.join('/') + '"]').children('ul').prepend(thisHtml);
       }
