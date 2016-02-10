@@ -58,7 +58,7 @@ function buildToolkit(){
         if($.inArray(a.dboxpath, pathArray) === -1) {
           pathArray.push(a.dboxpath);
           // find parent folder list element and add a sub folder list element to it
-          var thisHtml = '<li data-toolkitpath="' + a.dboxpathparts.join('/') + '"><i class="fa fa-folder"></i> &nbsp;' + a.dboxpathparts.slice(-1) + '<ul></ul></li>';
+          var thisHtml = '<li data-toolkitpath="' + a.dboxpathparts.join('/') + '"><i class="fa fa-fw fa-folder"></i> &nbsp;' + a.dboxpathparts.slice(-1) + '<ul></ul></li>';
           $('[data-toolkitpath="' + a.dboxpathparts.slice(0,-1).join('/') + '"]').children('ul').append(thisHtml);
         }
       })
