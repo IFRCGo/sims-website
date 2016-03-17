@@ -39,7 +39,7 @@ var data;
 // FUNCTION CHAIN
 // ##############
 function fetchData(){
-  $.get(window.location.origin + "/files", function(response){
+  $.get("http://webviz.redcross.org/sims/files", function(response){
     data = response;
     buildToolkit();
   });
@@ -68,7 +68,7 @@ function buildToolkit(){
     for(var i=0; i<data.length; i++){
       if(systemFile(data[i].basename) === false){
         var thisHtml = '<li>' + typeIcon(data[i].ext) +
-          ' &nbsp;<a target="_blank" href="docs/';
+          ' &nbsp;<a target="_blank" href="http://webviz.redcross.org/sims/docs/';
         thisHtml += (data[i].dboxpathparts.length > 1) ? data[i].dboxpathparts.slice(1).join('/') + '/' : '';
         thisHtml += data[i].basename + '">' +
           data[i].basename.slice(0,data[i].basename.indexOf(data[i].ext)) + '</a></li>';

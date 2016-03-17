@@ -1,8 +1,7 @@
 # Custom #
-###################
-node_modules
+##########
 /notes
-config.js
+
 
 # Compiled source #
 ###################
