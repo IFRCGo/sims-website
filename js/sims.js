@@ -39,7 +39,7 @@ var data;
 // FUNCTION CHAIN
 // ##############
 function fetchData(){
-  $.get("http://webviz.redcross.org/sims/files", function(response){
+  $.get("http://webviz.redcross.org/sims/toolkit", function(response){
     data = response;
     buildToolkit();
   });
