@@ -43,6 +43,9 @@ function fetchData(){
     data = response;
     buildToolkit();
   });
+  $.get("http://webviz.redcross.org/sims/gallery", function(response){
+    buildGallery(response);
+  });
 }
 
 function buildToolkit(){
@@ -75,6 +78,31 @@ function buildToolkit(){
         $('[data-toolkitpath="' + data[i].dboxpathparts.join('/') + '"]').children('ul').prepend(thisHtml);
       }
     }
+
+}
+
+function buildGallery(response){
+    var fullImages = response[1];
+    // remove thumbnails that are missing a corresponding full size image
+    var thumbnailObjects = response[0].filter(function(d){
+      return fullImages[d.basename.slice(0,d.basename.indexOf("_THUMB"))] !== undefined;
+    });
+
+    var linksContainer = $('#gallery-links')
+    var baseUrl = "http://webviz.redcross.org/sims/docs/gallery/";
+    var galleryLinks = thumbnailObjects.map(function(d){ return baseUrl + fullImages[d.basename.slice(0,d.basename.indexOf("_THUMB"))]; })
+
+    var links = d3.select('#gallery-links').selectAll('div')
+      .data(thumbnailObjects).enter()
+      .append('div').attr('class', 'gallery-thumb')
+      .attr('data-href', function(d){ return baseUrl + fullImages[d.basename.slice(0,d.basename.indexOf("_THUMB"))]; })
+      .on('click', function(d){
+        blueimp.Gallery(galleryLinks, { index: galleryLinks.indexOf(d3.select(this).attr('data-href')) });
+      })
+
+    links.append('img').attr('src', function(d){
+      return baseUrl + d.basename;
+    }).classed('img-responsive', true)
 
 }
 
