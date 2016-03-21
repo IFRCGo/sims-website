@@ -60,9 +60,9 @@ function buildToolkit(){
       $.each(rollup[i].values, function(i,a){
         if($.inArray(a.dboxpath, pathArray) === -1) {
           pathArray.push(a.dboxpath);
-          // find parent folder list element and add a sub folder list element to it
-          var thisHtml = '<li data-toolkitpath="' + a.dboxpathparts.join('/') + '"><i class="fa fa-fw fa-folder"></i> &nbsp;' + a.dboxpathparts.slice(-1) + '<ul></ul></li>';
-          $('[data-toolkitpath="' + a.dboxpathparts.slice(0,-1).join('/') + '"]').children('ul').append(thisHtml);
+          // find parent folder list element and add a sub folder div element to it
+          var thisHtml = '<div class="toolkit-block" data-toolkitpath="' + a.dboxpathparts.join('/') + '"><h4><i class="fa fa-fw fa-folder-o"></i> &nbsp;' + a.dboxpathparts.slice(-1) + '</h4><div class="contents"></div></div>';
+          $('[data-toolkitpath="' + a.dboxpathparts.slice(0,-1).join('/') + '"]').append(thisHtml);
         }
       })
     }
@@ -70,12 +70,12 @@ function buildToolkit(){
     data.sort(function(a,b){ return d3.descending(a.fullpath, b.fullpath); })
     for(var i=0; i<data.length; i++){
       if(systemFile(data[i].basename) === false){
-        var thisHtml = '<li>' + typeIcon(data[i].ext) +
-          ' &nbsp;<a target="_blank" href="http://webviz.redcross.org/sims/docs/';
+        var thisHtml = '<div class="toolkit-card toolkit-doc"><div class="color">' + typeIcon(data[i].ext) + '</div>' +
+          '<div class="text"><a target="_blank" href="http://webviz.redcross.org/sims/docs/toolkit/';
         thisHtml += (data[i].dboxpathparts.length > 1) ? data[i].dboxpathparts.slice(1).join('/') + '/' : '';
         thisHtml += data[i].basename + '">' +
-          data[i].basename.slice(0,data[i].basename.indexOf(data[i].ext)) + '</a></li>';
-        $('[data-toolkitpath="' + data[i].dboxpathparts.join('/') + '"]').children('ul').prepend(thisHtml);
+          data[i].basename.slice(0,data[i].basename.indexOf(data[i].ext)) + ' &nbsp; ' +  '</a></div></div>';
+        $('[data-toolkitpath="' + data[i].dboxpathparts.join('/') + '"]').children('.contents').prepend(thisHtml);
       }
     }
 

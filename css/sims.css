@@ -1,6 +1,11 @@
 .no-margin {
   margin: 0;
 }
+
+.section-spacer {
+  height: 24px;
+}
+
 .card {
   margin-top: 10px;
   box-sizing: border-box;
@@ -33,11 +38,34 @@
   padding: 6px;
   height: 100px;
   width: 100px;
+  border-radius: 2px;
   display: inline-block;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
 }
 
-#toolkit ul {
-  list-style: none;
+#toolkit .contents {
+  margin-bottom: 16px;
+}
+.toolkit-block {
+  padding: 14px 0px;
+}
+.toolkit-card {
+  margin: 6px;
+  border-radius: 2px;
+  display: inline-block;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.toolkit-card .color {
+  padding: 8px;
+  display: inline-block;
+  background-color: #d7d7d8;
+}
+.toolkit-card .text {
+  padding: 8px;
+  display: inline-block;
+}
+.toolkit-card a {
+  text-decoration: none;
+  color: inherit;
 }
