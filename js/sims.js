@@ -1,6 +1,10 @@
 // HELPERS
 // #######
-var systemFile = function(filename){ return filename.startsWith('.'); };
+var systemFile = function(filename){
+  if (filename.indexOf('.') === 0){
+    return true;
+  } else { return false; }
+};
 var typeIcon = function(extension){
   switch(extension) {
     case ".doc":
