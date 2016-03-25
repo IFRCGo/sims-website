@@ -1,3 +1,11 @@
+#browser-warning {
+  width: 100%;
+  height: 30px;
+  background-color: #ecb731;
+  text-align: center;
+  font-weight: bolder;
+}
+
 .intro {
     background: url(../img/intro-banner.png) no-repeat bottom center scroll;
     -webkit-background-size: cover;
