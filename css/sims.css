@@ -1,3 +1,11 @@
+.intro {
+    background: url(../img/intro-banner.png) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .no-margin {
   margin: 0;
 }
