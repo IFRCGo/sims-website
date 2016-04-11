@@ -43,16 +43,40 @@ var data;
 // FUNCTION CHAIN
 // ##############
 function fetchData(){
-  $.get("http://webviz.redcross.org/sims/toolkit", function(response){
-    data = response;
-    buildToolkit();
-  });
-  $.get("http://webviz.redcross.org/sims/gallery", function(response){
-    buildGallery(response);
-  });
+
+  $.ajax({
+    type: "GET",
+    url: "http://webviz.redcross.org/sims/toolkit",
+    error: function(err){
+      $(".error-message-toolkit").show();
+    },
+    success: function(response){
+      if(response.length === 0){
+        $(".error-message-toolkit").show();
+      } else {
+        buildToolkit(response);
+      }
+    }
+  })
+
+  $.ajax({
+    type: "GET",
+    url: "http://webviz.redcross.org/sims/gallery",
+    error: function(err){
+      $(".error-message-gallery").show();
+    },
+    success: function(response){
+      if(response.length === 0){
+        $(".error-message-gallery").show();
+      } else {
+        buildGallery(response);
+      }
+    }
+  })
+
 }
 
-function buildToolkit(){
+function buildToolkit(data){
   var rollup = d3.nest()
     .key(function(d){ return d.dboxpathparts.length; })
     .sortKeys(d3.ascending)

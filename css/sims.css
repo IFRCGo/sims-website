@@ -5,6 +5,9 @@
   text-align: center;
   font-weight: bolder;
 }
+.error-message-toolkit, .error-message-gallery {
+  display:none;
+}
 
 .intro {
     background: url(../img/intro-banner.png) no-repeat bottom center scroll;
