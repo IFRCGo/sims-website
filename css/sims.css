@@ -55,8 +55,8 @@ h2{
   background-color:white;
   background-clip: padding-box;
   overflow:hidden;
-  height:300px;
-  max-width:300px;
+  min-height:23em;
+  max-width:23em;
   /*  box-sizing: border-box;
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
 }
@@ -70,10 +70,6 @@ h2{
 
 .external-card-images {
    padding: 12px 12px 6px 12px;
-}
-
-.resize{
-   height:100px;
 }
 
 .internal-card-images {
@@ -93,6 +89,10 @@ h2{
   padding: 15px;
 }
 
+.card-logo-fit-size{
+    max-height: 100px;
+    max-width: 100%;
+}
 .card-logo.dhn {
   background: #B3130B;
 }
