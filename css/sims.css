@@ -88,11 +88,12 @@ h2{
   justify-content: center;
   display:flex;
   height:100px;
+  box-sizing:border-box;
 }
 
 .external-card-images {
    padding: 12px 12px 6px 12px;
-   max-height: 100px;
+   max-height: 100%;
 }
 
 .internal-card-images {
@@ -112,11 +113,20 @@ h2{
   padding: 15px;
 }
 
+/*for chrome*/
 @supports (-webkit-appearance:none) {
     .card-logo-fit-size {
         max-width: 100%;
     }
 }      
+
+/*for IE <3*/
+@media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .card-logo-fit-size {
+        max-width:21em;
+        width:100%;
+    }
+}
 
 .card-logo.dhn {
   background: #B3130B;
