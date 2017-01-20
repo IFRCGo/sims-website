@@ -12,7 +12,6 @@ body {
   color:black;
 }
 
-
 .btn{
     border-radius: 5px;
 }
@@ -42,6 +41,25 @@ h2{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.intro-sims{
+    font-weight: 500;
+    color: black;
+}
+
+.intro-more-stuff{
+    color: grey;
+    padding:1em;
+    font-size:1.2em;
+}
+
+.red-cross-font-colour{
+    color:#800000;
+}
+
+.fa {
+    padding: 0.5em 0.1em 0.5em 0.1em;
 }
 
 .no-margin {
