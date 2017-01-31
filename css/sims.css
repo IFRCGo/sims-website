@@ -22,6 +22,7 @@ h2{
     font-weight: lighter;
     font-size:2.5em;
     color:crimson;
+    text-align:center;
 }
 
 #browser-warning {
@@ -61,6 +62,36 @@ h2{
 .fa {
     padding: 0.5em 0.1em 0.5em 0.1em;
 }
+
+p{
+    align-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+
+/*------------------dashboard css code*/
+div#map svg text{
+    font-size: 0.9em;
+    font-family: Verdana;
+}
+
+#map {
+    /*following 3 lines for block centering*/
+    text-align: center;
+    overflow:hidden; 
+}
+
+.dc-chart g.activations path {
+    stroke: #fff !important;
+}
+
+.reset-map :active{
+    outline:none;
+    color:black;
+}
+
+/*------------------cards css code*/
 
 .no-margin {
   margin: 0;
