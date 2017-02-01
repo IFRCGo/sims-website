@@ -28,7 +28,7 @@ d3.csv("data/SIMS Activation Log.csv", function (error, rawData) {
 
 
 
-    d3.json("world-map.json", function (error2, mapData) {
+    d3.json("data/world-map.json", function (error2, mapData) {
         
         var centre = d3.geo.centroid(mapData);
         var projection = d3.geo.mercator().center(centre).scale(150).translate([500,200]);
