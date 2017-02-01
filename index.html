@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Lato|Oxygen">
     <link rel="stylesheet" href="css/stylish-portfolio.css">
     <link rel="stylesheet" href="css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="css/dc.css" />
@@ -422,23 +422,30 @@
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1">
                     <h2>SIMS Activations</h2>
-                    <div id="map">
-                        <p>
-                            <button id="reset-map" class="btn btn-info btn-md reset" style="display: none;">Reset map filters</button>
-                            <span class="reset" style="display: none;"> | Current filter: <span class="filter"></span></span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+					<div id="loading-button">
+						<button class="btn btn-danger btn-md">
+							<i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; Loading Map
+						</button>
+					</div>
+					<div id="map">
+						<p id="reset-line">
+							<button class="btn btn-md" style="visibility:hidden;">Error</button>
+							<button id="reset-map" class="btn btn-danger btn-md reset" style="display: none;">Reset map and table filters</button>
+							<span class="reset" style="display: none;"> | Current filter: <span class="filter"></span></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                    <div id="table" class="table table-hover"></div>
-                </div>
-            </div>
-        </div>
+		<div class="container">
+			<div class="row">
+				<p><strong>Raw Data</strong></p>
+				<div class="col-sm-10 col-sm-offset-1">
+					<div id="table" class="table table-hover"></div>
+				</div>
+			</div>
+		</div>
     </section>
     <div class="section-spacer bg-white"></div>
 
@@ -480,7 +487,6 @@
     <script type="text/javascript" src="js/d3.js"></script>
     <script type="text/javascript" src="js/crossfilter.js"></script>
     <script type="text/javascript" src="js/dc.js"></script>
-    <!--<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>-->
     <script src="js/blueimp-gallery.min.js"></script>
     <script src="js/sims.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/dashboard.js"></script>
