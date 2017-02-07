@@ -1,35 +1,35 @@
 Year,Country,Code,Response,Support,Significance (1-5; 5 as most significant activations),Start Date,End Date
-2016,Philippines,PHL,Philippines Typhoon Haima,Remote & Deployed,3,Nov-16,Dec-16
-2016,Iraq,IRQ,Iraq Mosul Operation,Remote,2,Nov-16,Nov-16
-2016,Ukraine,UKR,Ukraine,Remote,2,Sep-16,Oct-16
-2016,Angola,AGO,Angola Yellow Fever,Remote,1,May-16,Jul-16
-2016,Ecuador,ECU,Ecuador Earthquake,Remote & Deployed,3,Apr-16,Jul-16
+2016,Philippines,PHL,Typhoon Haima,Remote & Deployed,3,Nov-16,Dec-16
+2016,Iraq,IRQ,Mosul Operation,Remote,2,Nov-16,Nov-16
+2016,Ukraine,UKR,Complex Emergency,Remote,2,Sep-16,Oct-16
+2016,Angola,AGO,Yellow Fever,Remote,1,May-16,Jul-16
+2016,Ecuador,ECU,Earthquake,Remote & Deployed,3,Apr-16,Jul-16
 2016,Panama,PAN,Zika Virus Outbreak,Remote & Deployed,3,Feb-16,Jul-16
-2015,Ethiopia,ETH,Ethiopia Drought,Remote,2,Nov-15,Jan-16
-2015,Tanzania,TZA,Tanzania Cholera,Remote,1,Oct-15,Nov-16
+2015,Ethiopia,ETH,Drought,Remote,2,Nov-15,Jan-16
+2015,Tanzania,TZA,Cholera,Remote,1,Oct-15,Nov-16
 2015,Greece,GRC,Europe Population Movement,Remote & Deployed,4,Sep-15,Feb-16
 2015,The former Yugoslav Republic of Macedonia,MKD,Europe Population Movement,Remote & Deployed,4,Sep-15,Feb-16
 2015,Serbia,SRB,Europe Population Movement,Remote & Deployed,4,Sep-15,Feb-16
 2015,Croatia,HRV,Europe Population Movement,Remote & Deployed,4,Sep-15,Feb-16
 2015,Hungary,HUN,Europe Population Movement,Remote & Deployed,4,Sep-15,Feb-16
 2015,Slovenia,SVN,Europe Population Movement,Remote & Deployed,4,Sep-15,Feb-16
-2015,Burundi,BDI,Burundi Population Movement ,Remote,2,May-15,Jun-16
-2015,Nepal,NPL,Nepal Earthquake   ,Remote & Deployed,4,Apr-15,Sep-15
-2015,Vanuatu,VUT,Vanuatu Cyclone Pam,Remote & Deployed,2,Mar-15,Apr-15
-2015,Micronesia,FSM,Micronesia Typhoon Maysak ,Remote,1,Mar-15,Apr-15
-2015,Malawi,MWI,Malawi Floods   ,Remote,1,Jan-15,Jan-15
-2015,Cameroon,CMR,Cameroon Cholera ,Remote,1,Dec-14,Dec-14
+2015,Burundi,BDI,Population Movement ,Remote,2,May-15,Jun-16
+2015,Nepal,NPL,Earthquake   ,Remote & Deployed,4,Apr-15,Sep-15
+2015,Vanuatu,VUT,Cyclone Pam,Remote & Deployed,2,Mar-15,Apr-15
+2015,Micronesia,FSM,Typhoon Maysak ,Remote,1,Mar-15,Apr-15
+2015,Malawi,MWI,Floods   ,Remote,1,Jan-15,Jan-15
+2015,Cameroon,CMR,Cholera ,Remote,1,Dec-14,Dec-14
 2014,Iraq,IRQ,Iraq Population Movement,Remote & Deployed,3,Aug-14,
 2014,Serbia,SRB,Balkans Floods,Remote,2,May-14,Aug-14
 2014,Bosnia and Herzegovina,BIH,Balkans Floods,Remote,2,May-14,Aug-14
-2014,Solomon Islands,SLB,Solomon Islands Floods,Remote,1,Apr-14,May-14
+2014,Solomon Islands,SLB,Floods,Remote,1,Apr-14,May-14
 2014,Guinea,GIN,West Africa Ebola ,Remote & Deployed,5,Mar-14,Apr-16
 2014,Liberia,LBR,West Africa Ebola ,Remote & Deployed,5,Mar-14,Apr-16
 2014,Sierra Leone,SLE,West Africa Ebola ,Remote & Deployed,5,Mar-14,Apr-16
-2013,Philippines,PHL,Philippines Typhoon Haiyan,Remote & Deployed,5,Nov-13,Mar-14
-2014,Canada,CAN,Canada Alberta Floods,Remote & Deployed,2,,
-2013,Nigeria,NGA,Nigeria Floods,Remote,1,,
+2013,Philippines,PHL,Typhoon Haiyan,Remote & Deployed,5,Nov-13,Mar-14
+2014,Canada,CAN,Alberta Floods,Remote & Deployed,2,,
+2013,Nigeria,NGA,Floods,Remote,1,,
 2013,,,SIMS Officially Established,,,,
-2012,Democratic Republic of Congo,COD,DRC Population Movement,Remote,3,,
-2012,Sierra Leone,SLE,Sierra Leone Cholera Outbreak,Remote & Deployed,3,Aug-12,
-2011,Tunisia,TUN,Tunisia Population Movement,Deployed,3,,
+2012,Democratic Republic of Congo,COD,Population Movement,Remote,3,,
+2012,Sierra Leone,SLE,Cholera Outbreak,Remote & Deployed,3,Aug-12,
+2011,Tunisia,TUN,Population Movement,Deployed,3,,
