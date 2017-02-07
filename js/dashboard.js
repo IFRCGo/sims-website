@@ -1,7 +1,7 @@
 
 //IMPORTING DATA from CSV
-var csvLocation = "/data/SIMS Activation Log.csv";
-var jsonLocation = "/data/world-map.json";
+var csvLocation = "data/SIMS Activation Log.csv";
+var jsonLocation = "data/world-map.json";
 
 d3.csv(csvLocation, function (error, rawData) {
 
