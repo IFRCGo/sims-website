@@ -414,38 +414,46 @@
         <!-- /.container -->
     </section>
 
-   <div class="section-spacer bg-white"></div>
+    <div class="section-spacer bg-white"></div>
 
     <!-- Dashboard  -->
     <section id="dashboard" class="bg-white">
         <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2>SIMS Activations</h2>
+            </div>
             <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                    <h2>SIMS Activations</h2>
-					<div id="loading-button">
-						<button class="btn btn-danger btn-md">
-							<i class="fa fa-spinner fa-spin" aria-hidden="true"></i>&nbsp; Loading Map
-						</button>
-					</div>
-					<div id="map">
-						<p id="reset-line">
-							<button class="btn btn-md" style="visibility:hidden;">Error</button>
-							<button id="reset-map" class="btn btn-danger btn-md reset" style="display: none;">Reset map and table filters</button>
-							<span class="reset" style="display: none;"> | Current filter: <span class="filter"></span></span>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
+                <div class="col-sm-10 col-sm-offset-1 hide-overflow hidden-xs">
+                    <div id="map">
+                        <p id="reset-line" class="col-sm-12">
+                            <button class="btn btn-md" style="visibility:hidden;">Error</button>
+                            <button id="reset-map" class="btn btn-danger btn-md reset" style="display: none;">Reset map and table filters</button>
+                            <span class="reset" style="display: none;"> | Current filter: <span class="filter"></span></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<div class="container">
-			<div class="row">
-				<p><strong>Raw Data</strong></p>
-				<div class="col-sm-10 col-sm-offset-1">
-					<div id="table" class="table table-hover"></div>
-				</div>
-			</div>
-		</div>
+        <!--Table------------>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 visible-xs">
+                    <p>SIMS has participated in various activations around the world since 2011. An interactive map of all activations is available when viewing the website on a larger screen.</p>
+                    <p>In the meantime you can download a table for all activations below.</p>
+                </div>
+                <p><strong>Summary of Activations</strong></p>
+                <p>
+                    <button id="download-data" class="btn btn-danger btn-md btn-dark">
+                        <i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download csv
+                    </button>
+                </p>
+                <div class="col-sm-10 col-sm-offset-1 hidden-xs">
+                    <div id="table" class="table table-hover"></div>
+                </div>
+            </div>
+        </div>
     </section>
     <div class="section-spacer bg-white"></div>
 
@@ -487,6 +495,7 @@
     <script type="text/javascript" src="js/d3.js"></script>
     <script type="text/javascript" src="js/crossfilter.js"></script>
     <script type="text/javascript" src="js/dc.js"></script>
+    <script type="text/javascript" src="js/fileSaver.js"></script>
     <script src="js/blueimp-gallery.min.js"></script>
     <script src="js/sims.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/dashboard.js"></script>
