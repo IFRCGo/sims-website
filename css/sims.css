@@ -117,6 +117,15 @@ p{
 
 /*------------------cards css code*/
 
+#internal-resources div.col-sm-4, #external-resources div.col-sm-4{
+    display:flex;
+    justify-content:center;
+}
+
+#external-resources .card{
+    min-height:27em;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -135,9 +144,10 @@ section {
   background-color:white;
   background-clip: padding-box;
   overflow:hidden;
-  min-height:23em;
+  min-height:25em;
   max-width:23em;
   color:black;
+  font-family: 'Open Sans', sans-serif;
   /*  box-sizing: border-box;
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
 }

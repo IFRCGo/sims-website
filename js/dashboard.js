@@ -33,7 +33,7 @@ d3.csv(csvLocation, function (error, rawData) {
     d3.json(jsonLocation, function (error2, mapData) {
 
         var centre = d3.geo.centroid(mapData);
-        var projection = d3.geo.mercator().center(centre).scale(160).translate([500, 200]);
+        var projection = d3.geo.mercator().center(centre).scale(140).translate([500, 220]);
 
         try {
 
@@ -56,7 +56,7 @@ d3.csv(csvLocation, function (error, rawData) {
         resetButton.onclick = function redraw() { worldMap.filterAll(); dc.redrawAll(); };
 
     }); // end of d3.json import
-    
+
 
     //-------------------------------------- Table -----------------------------------------------------------
 
@@ -86,7 +86,7 @@ d3.csv(csvLocation, function (error, rawData) {
             document.getElementById('map').style.visibility = "hidden";
         } else if (state == 'complete') {
             setTimeout(function () {
-                document.getElementById('interactive');
+                //document.getElementById('interactive');
                 //document.getElementById('loading').style.display = "none";
                 document.getElementById('map').style.visibility = "visible";
             }, 1000);
@@ -97,25 +97,28 @@ d3.csv(csvLocation, function (error, rawData) {
 
     function readTextFile(file) {
         var rawFile = new XMLHttpRequest();
-        rawFile.open("GET", file, true); //true = asynchronous request
         var allText = "";
+        rawFile.open("GET", file, false); //true = asynchronous request but this doesn't work
         rawFile.onreadystatechange = function () {
             if (rawFile.readyState === 4) {
                 if (rawFile.status === 200 || rawFile.status == 0) {
                     allText = rawFile.responseText;
                 }
             }
-        }
+        };
         rawFile.send(null);
         return allText || "Error loading csv, please contact the website administrator";
     }
 
-    var test = readTextFile(csvLocation);
+    var file = readTextFile(csvLocation);
     var downloadButton = document.getElementById("download-data");
+
     downloadButton.onclick = function () {
-        var blob = new Blob([test], { type: "text/plain;charset=utf-8" });
+        var blob = new Blob([file], { type: "text/plain;charset=utf-8" });
         saveAs(blob, "SIMS_activation_log.csv");
+        console.log(blob);
     };
 
 
 }); //END of D3.csv import
+
