@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,12 +11,14 @@
 
     <title>SIMS</title>
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" type="text/css">
-    <link rel="stylesheet" href="css/stylish-portfolio.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Lato|Oxygen">
+    <link rel="stylesheet" href="css/stylish-portfolio.css">
     <link rel="stylesheet" href="css/blueimp-gallery.min.css">
-    <link rel="stylesheet" href="css/sims.css" >
+    <link rel="stylesheet" href="css/dc.css" />
+    <link rel="stylesheet" href="css/sims.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,23 +37,29 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); >SIMS</a>
+                <a href="#top" onclick=$("#menu-close").click();>SIMS</a>
             </li>
 
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+                <a href="#about" onclick=$("#menu-close").click();>What is SIMS?</a>
             </li>
             <li>
-                <a href="#internal-resources" onclick = $("#menu-close").click(); >Internal resources</a>
+                <a href="#internal-resources" onclick=$("#menu-close").click();>Internal resources</a>
             </li>
             <li>
-                <a href="#external-resources" onclick = $("#menu-close").click(); >External resources</a>
+                <a href="#gallery" onclick=$("#menu-close").click();>Information product examples</a>
             </li>
             <li>
-                <a href="#toolkit" onclick = $("#menu-close").click(); >Toolkit</a>
+                <a href="#external-resources" onclick=$("#menu-close").click();>External resources</a>
             </li>
             <li>
-                <a href="#feedback" onclick = $("#menu-close").click(); >Feedback</a>
+                <a href="#toolkit" onclick=$("#menu-close").click();>Toolkit</a>
+            </li>
+            <li>
+                <a href="#dashboard" onclick=$("#menu-close").click();>Activations dashboard</a>
+            </li>
+            <li>
+                <a href="#feedback" onclick=$("#menu-close").click();>Feedback</a>
             </li>
         </ul>
     </nav>
@@ -60,12 +68,11 @@
       <div id="browser-warning"><h4>Your browser is out of date and not supported by this website.
       Please check out <a href="http://browsehappy.com/">Browse Happy</a> to get the lastest versions of major browsers.</h4></div>
     <![endif]-->
-
     <!-- Header -->
     <header id="top" class="header intro">
         <div class="text-vertical-center">
-            <h1>SIMS</h1>
-            <h3>Surge Information Management Support</h3>
+            <h1 class="front-page-font-outline">SIMS</h1>
+            <h3 class="front-page-font-outline">Surge Information Management Support</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
@@ -76,9 +83,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>The Surge Information Management Support (SIMS) project is...</h2>
-                    <p class="lead"> a network of trained specialists who develop, coordinate and implement information management systems for global Red Cross and Red Crescent disaster response operations.   SIMS specialists—who include staff and volunteers from Red Cross national societies and the IFRC—help operations leverage the power of mapping, data management and visualization tools to support decision making and enhance reporting.</p>
-                    <p class="lead">When a disaster occurs, SIMS is activated through the IFRC Disaster Crisis Management Surge Desk to provide either remote or field-based support to operations, according to disaster scale, complexity and impact of the event. In addition to direct operational support, SIMS also serves as a network for information management coordination and capacity building, helping improve information management standards, tools, and expertise across response operations.</p>
+                    <h2>What is SIMS?</h2>
+                    <h3>
+                        <p class="lead intro-sims">
+                            The Surge Information Management Support (SIMS) project is a network of trained specialists who develop, coordinate and implement information management systems for global <span class="red-cross-font-colour">Red Cross</span> and <span class="red-cross-font-colour">Red Crescent</span> disaster response operations.
+                        </p>
+                    </h3>
+                    <p class="intro-more-stuff">
+                        SIMS specialists—who include staff and volunteers from <span class="red-cross-font-colour">Red Cross</span> national societies and the <span class="red-cross-font-colour">IFRC</span>—help operations leverage the power of mapping, data management and visualization tools to support decision making and enhance reporting.
+                    </p>
+                    <p class="intro-more-stuff">When a disaster occurs, SIMS is activated through the IFRC Disaster Crisis Management Surge Desk to provide either remote or field-based support to operations, according to disaster scale, complexity and impact of the event. In addition to direct operational support, SIMS also serves as a network for information management coordination and capacity building, helping improve information management standards, tools, and expertise across response operations.</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -87,89 +101,124 @@
     </section>
 
     <!-- External Resources -->
-    <section id="internal-resources" class="external-resources">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 col-lg-offset-1">
-            <h2 class="text-center">Internal Resources</h2>
-            <!-- <p class="lead text-center">Paragraph here</p> -->
+    <section id="internal-resources" class="external-resources bg-black">
+        <div class="container">
             <div class="row">
-              <div class="col-sm-4">
-                <div class="card external-resource">
-                  <div class="resources-card">
-                    <img class="img-responsive" src="img/resources/onepager.png" />
-                  </div>
-                  <div class="card-text">
-                    <h4 class="no-margin"><strong>SIMS one pager</a></strong>&nbsp; <small>gives a concise overview of SIMS activites, products and services. &nbsp;<a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/SIMS_One_Pager.pdf" download><i class="fa fa-fw fa-file-pdf-o"></i></a></small></h4>
-                  </div>
+                <div class="col-lg-12">
+                    <h2 class="text-center">Internal Resources</h2>
                 </div>
-                <div class="card external-resource">
-                  <div class="resources-card">
-                    <img class="img-responsive" src="img/resources/im.png" />
-                  </div>
-                  <div class="card-text">
-                    <h4 class="no-margin"><strong>Disaster information cycle</strong>&nbsp; <small>explained in an infographic. &nbsp;<a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/IM_Chart.pdf" download><i class="fa fa-fw fa-file-pdf-o"></i></a></small></h4>
-                  </div>
-                </div>
-                <div class="card external-resource">
-                  <div class="resources-card">
-                    <img class="img-responsive" src="img/resources/cie.png" />
-                  </div>
-                  <div class="card-text">
-                    <h4 class="no-margin"><strong>Cash in Emergencies Toolkit</strong>&nbsp; <small> by the International Red Cross and Red Crescent Movement to make cash transfer based programming (CTP)  tools, practical guidance and minimum standards easily accessible. &nbsp;<a href="http://rcmcash.org/" target="_blank"><i class="fa fa-fw fa-external-link"></i></a></small></h4>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="card external-resource">
-                  <div class="resources-card">
-                    <img class="img-responsive" src="img/resources/activation.png" />
-                  </div>
-                  <div class="card-text">
-                    <h4 class="no-margin"><strong>Activation flow</strong>&nbsp; <small>one pager describing the steps of the major phases of SIMS support: activation, response and transition. &nbsp;<a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/Activation_Flow_2016_March_v2.pdf" download><i class="fa fa-fw fa-file-pdf-o"></i></a></small></h4>
-                  </div>
-                </div>
-                <div class="card external-resource">
-                  <div class="resources-card">
-                    <img class="img-responsive" src="img/resources/services.png" />
-                  </div>
-                  <div class="card-text">
-                    <h4 class="no-margin"><strong>Menu of services</strong>&nbsp; <small>detailing different types of SIMS products and services. &nbsp;<a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/Menu_of_Services_20151222.pdf" download><i class="fa fa-fw fa-file-pdf-o"></i></a></small></h4>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="card external-resource">
-                  <div class="resources-card">
-                    <img class="img-responsive" src="img/resources/tips.png" />
-                  </div>
-                  <div class="card-text">
-                    <h4 class="no-margin"><strong>Tips and recommendations</strong>&nbsp; <small>for better information management. &nbsp;<a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/IM_Tips.pdf" download><i class="fa fa-fw fa-file-pdf-o"></i></a> or <a href="http://simonbjohnson.github.io/im-tips/" target="_blank"><i class="fa fa-fw fa-external-link"></i></a></small></h4>
-                  </div>
-                </div>
-                <div class="card external-resource">
-                  <div class="resources-card">
-                    <img class="img-responsive" src="img/resources/learning.png" />
-                  </div>
-                  <div class="card-text">
-                    <h4 class="no-margin"><strong>Monitoring and learning process</strong>&nbsp; <small>documentating how SIMS reviews support activities and implements changes based on lessons learned. &nbsp;<a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/Monitoring_and_Learning_Process.pdf" download><i class="fa fa-fw fa-file-pdf-o"></i></a></small></h4>
-                  </div>
-                </div>
-
-
-              </div>
-
-
             </div>
-            <!-- /.row (nested) -->
-          </div>
-          <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
+            <!-- <p class="lead text-center">Paragraph here</p> -->
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card external-resource">
+                        <div class="card-logo text-center internal-card-images">
+                            <img class="internal-card-images" src="img/resources/onepager.png" />
+                        </div>
+                        <div class="card-text">
+                            <h4 class="no-margin">
+                                <strong>SIMS one pager</strong>&nbsp; <small>
+                                    gives a concise overview of SIMS activites, products and services.
+                                    <br /><a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/SIMS_One_Pager.pdf" download><i class="fa fa-lg fa-file-pdf-o"></i> EN</a>
+                                </small>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card external-resource">
+                        <div class="card-logo text-center  internal-card-images">
+                            <img class="internal-card-images" src="img/resources/activation.png" />
+                        </div>
+                        <div class="card-text">
+                            <h4 class="no-margin">
+                                <strong>Activation flow</strong>&nbsp; <small>
+                                    describing the steps of SIMS support: activation, response and transition.
+                                    <br /><a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/Activation_Flow_2016_March_v2.pdf" download><i class="fa-hover fa fa-lg fa-file-pdf-o"></i> EN</a>
+                                </small>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card external-resource">
+                        <div class="card-logo text-center internal-card-images">
+                            <img class="internal-card-images" src="img/resources/tips.png" />
+                        </div>
+                        <div class="card-text">
+                            <h4 class="no-margin">
+                                <strong>Tips and recommendations</strong>&nbsp; <small>
+                                    for better information management.
+                                    <br /><a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/IM_Tips.pdf" download><i class="fa fa-lg fa-file-pdf-o"></i> EN</a> or <a href="http://simonbjohnson.github.io/im-tips/" target="_blank"><i class="fa fa-lg fa-external-link"></i></a>
+                                </small>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card external-resource">
+                        <div class="card-logo text-center internal-card-images">
+                            <img class="internal-card-images" src="img/resources/im.png" />
+                        </div>
+                        <div class="card-text">
+                            <h4 class="no-margin">
+                                <strong>Disaster information cycle</strong>&nbsp; <small>
+                                    explained in an infographic.
+                                    <br /><a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/IM_Chart.pdf" download><i class="fa fa-lg fa-file-pdf-o"></i> EN</a>
+                                </small>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card external-resource">
+                        <div class="card-logo text-center internal-card-images">
+                            <img class="internal-card-images" src="img/resources/services.png" />
+                        </div>
+                        <div class="card-text">
+                            <h4 class="no-margin">
+                                <strong>Menu of services</strong>&nbsp; <small>
+                                    detailing different types of SIMS products and services.
+                                    <br /><a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/Menu_of_Services_20151222.pdf" download><i class="fa fa-lg fa-file-pdf-o"></i> EN</a>
+                                </small>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card external-resource">
+                        <div class="card-logo text-center internal-card-images">
+                            <img class="internal-card-images" src="img/resources/learning.png" />
+                        </div>
+                        <div class="card-text">
+                            <h4 class="no-margin">
+                                <strong>Monitoring and learning process</strong>&nbsp; <small>
+                                    documentating how SIMS reviews support activities and implements changes based on lessons learned.
+                                    <br /><a href="https://raw.githubusercontent.com/AmericanRedCross/sims-website/gh-pages/docs/Monitoring_and_Learning_Process.pdf" download><i class="fa fa-lg fa-file-pdf-o"></i> EN</a>
+                                </small>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card external-resource">
+                        <div class="card-logo text-center internal-card-images">
+                            <img class="internal-card-images" src="img/resources/cie.png" />
+                        </div>
+                        <div class="card-text">
+                            <h4 class="no-margin">
+                                <strong>Cash in Emergencies Toolkit</strong>&nbsp; <small>
+                                    by the International Red Cross and Red Crescent Movement to make cash transfer based programming (CTP)  tools, practical guidance and minimum standards easily accessible.
+                                    <a href="http://rcmcash.org/" target="_blank"><i class="fa fa-lg fa-external-link"></i></a>
+                                </small>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- /.container -->
     </section>
 
     <div class="section-spacer"></div>
@@ -178,17 +227,18 @@
     <section id="gallery" class="gallery">
         <div class="container">
             <div class="row">
-              <div class="col-lg-10 col-lg-offset-1">
-                  <h2 class="text-center">Information Product Examples</h2>
-                  <div class="row text-center">
-                    <div class="error-message-gallery"><p><i>Sorry, somthing went wrong loading this resource. Please refresh the page. If the problem persists, send an email to <a href="mailto:daniel.joseph@redcross.org">daniel.joseph@redcross.org</a> with the name and version of the internet browser you are using. Thank you.</i></p></div>
-                    <div id="gallery-links"></div>
-                  </div>
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2 class="text-center">Information Product Examples</h2>
+                    <div class="row text-center">
+                        <div class="error-message-gallery"><p><i>Sorry, something went wrong loading this resource. Please refresh the page. If the problem persists, send an email to <a href="mailto:daniel.joseph@redcross.org">daniel.joseph@redcross.org</a> with the name and version of the internet browser you are using. Thank you.</i></p></div>
+                        <div id="gallery-links"></div>
+                    </div>
                 </div>
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
+
     </section>
 
     <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
@@ -205,123 +255,229 @@
     <div class="section-spacer"></div>
 
     <!-- External Resources -->
-    <section id="external-resources" class="external-resources">
+    <section id="external-resources" class="external-resources bg-black">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
+                <div class="col-lg-12">
                     <h2 class="text-center">External Resources</h2>
                     <p class="lead text-center">SIMS makes a real effort to stay connected into the wider information management community both within and beyond the humanitarian sector. These networks are essential for building skills, accessing data and sharing experiences. You can find below a collection of the external groups that we engage with on a regular basis. Some of them are mainly used for simply downloading and using data, whereas others are actors with which we actively work and collaborate.</p>
+
                     <div class="row">
+                        <!-- COL 1-->
                         <div class="col-sm-4">
                             <div class="card external-resource">
                                 <div class="card-logo text-center">
-                                  <img src="img/logos/logo-osm.png" />
+                                    <img class="external-card-images" src="img/logos/logo-osm.png" />
                                 </div>
                                 <div class="card-text">
-                                  <h4 class="no-margin"><strong>OpenStreetMap (OSM)</a></strong>&nbsp; <small>is an open-source equivalent of Google Maps which allows anyone to edit and extract data. SIMS uses and contributes to this data in almost every response. &nbsp;<a href="http://www.openstreetmap.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                    <h4 class="no-margin"><strong>OpenStreetMap (OSM)</a></strong>&nbsp; <small>is an open-source equivalent of Google Maps which allows anyone to edit and extract data. SIMS uses and contributes to this data in the majority of responses. &nbsp;<a href="http://www.openstreetmap.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-sm-4">
                             <div class="card external-resource">
                                 <div class="card-logo text-center">
-                                  <img src="img/logos/logo-hot.png" />
+                                    <img class="external-card-images card-logo-fit-size" src="img/logos/logo-hot.png" />
                                 </div>
                                 <div class="card-text">
-                                  <h4 class="no-margin"><strong>Humanitarian OpenStreetMap Team (HOT)</strong>&nbsp; <small>is a charitable organisation that works to enhance OpenStreetMap for locations of humanitarian interest. &nbsp;<a href="https://hotosm.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                    <h4 class="no-margin"><strong>Humanitarian OpenStreetMap Team (HOT)</strong>&nbsp; <small>is a charitable organisation that works to enhance OpenStreetMap for locations of humanitarian interest. &nbsp;<a href="https://hotosm.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-sm-4">
                             <div class="card external-resource">
                                 <div class="card-logo text-center">
-                                  <img src="img/logos/logo-missingmaps.png" />
+                                    <img class="external-card-images card-logo-fit-size" src="img/logos/logo-missingmaps.png" />
                                 </div>
                                 <div class="card-text">
-                                  <h4 class="no-margin"><strong>Missing Maps</strong>&nbsp; <small>is a collaboration between HOT and several humanitarian agencies including the American, British and Netherlands Red Cross which aims to map the most vulnerable populations around the world in preparation of future emergencies. &nbsp;<a href="http://www.missingmaps.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                    <h4 class="no-margin"><strong>Missing Maps</strong>&nbsp; <small>is a collaboration between HOT and several humanitarian agencies including the American, British and Netherlands Red Cross which aims to map the most vulnerable populations around the world in preparation of future emergencies. &nbsp;<a href="http://www.missingmaps.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card external-resource">
+                                <div class="card-logo text-center">
+                                    <img class="external-card-images card-logo-fit-size" src="img/logos/logo-hresp.png" />
+                                </div>
+                                <div class="card-text">
+                                    <h4 class="no-margin"><strong>HumanitarianResponse</strong>&nbsp; <small>is a central website for information management tools and services managed by UNOCHA. We have attended the IMWG and it is a key reference point for our work. &nbsp;<a href="https://www.humanitarianresponse.info/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card external-resource">
+                                <div class="card-logo text-center">
+                                    <img class="external-card-images card-logo-fit-size" src="img/logos/logo-hdx.png" />
+                                </div>
+                                <div class="card-text">
+                                    <h4 class="no-margin"><strong>Humanitarian Data Exchange (HDX)</strong>&nbsp; <small>is an open platform for sharing data between humanitarian actors and is a primary source of external secondary data. &nbsp;<a href="https://data.hdx.rwlabs.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
                             <div class="card external-resource">
                                 <div class="card-logo dhn text-center">
-                                  <img src="img/logos/logo-dhn.png" />
+                                    <img class="external-card-images card-logo-fit-size" src="img/logos/logo-dhn.png" />
                                 </div>
                                 <div class="card-text">
-                                  <h4 class="no-margin"><strong>The Digital Humanitarian Network (DHN)</strong>&nbsp; <small>is a consortium of volunteer and tech communities that can be engaged with by traditional humanitarian agencies to solve specified problems. SIMS coordinates with the DHN and has worked with member groups. &nbsp;<a href="http://digitalhumanitarians.com/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                    <h4 class="no-margin"><strong>The Digital Humanitarian Network (DHN)</strong>&nbsp; <small>is a consortium of volunteer and tech communities that can be engaged with by traditional humanitarian agencies to solve specified problems. SIMS coordinates with the DHN and has worked with its member groups. &nbsp;<a href="http://digitalhumanitarians.com/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-sm-4">
                             <div class="card external-resource">
                                 <div class="card-logo text-center">
-                                  <img src="img/logos/logo-hdx.png" />
+                                    <img class="external-card-images card-logo-fit-size" src="img/logos/logo-nethope.png" />
                                 </div>
                                 <div class="card-text">
-                                  <h4 class="no-margin"><strong>Humanitarian Data Exchange (HDX)</strong>&nbsp; <small>is an open platform for sharing data between humanitarian actors and is a primary source of external data in our work. &nbsp;<a href="https://data.hdx.rwlabs.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
-                                </div>
-                            </div>
-                            <div class="card external-resource">
-                                <div class="card-logo hid text-center">
-                                  <img src="img/logos/logo-hid.png" />
-                                </div>
-                                <div class="card-text">
-                                  <h4 class="no-margin"><strong>Humanitarian ID</strong>&nbsp; <small>is an online app for simple and up-to-date contact lists that is both used and endorsed within SIMS. It hinges on the principle of staff checking in and out for each disaster. &nbsp;<a href="https://humanitarian.id/#/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
-                                </div>
-                            </div>
-                            <div class="card external-resource">
-                                <div class="card-logo text-center">
-                                  <img src="img/logos/logo-rw.png" />
-                                </div>
-                                <div class="card-text">
-                                  <h4 class="no-margin"><strong>ReliefWeb</strong>&nbsp; <small>is a web service for all humanitarian news and updates and is used heavily in our compiling of secondary data. Our maps and products have also featured on the site in the past. &nbsp;<a href="http://reliefweb.int/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
-                                </div>
-                            </div>
-                            <div class="card external-resource">
-                                <div class="card-logo text-center">
-                                  <img src="img/logos/logo-hresp.png" />
-                                </div>
-                                <div class="card-text">
-                                  <h4 class="no-margin"><strong>HumanitarianResponse</strong>&nbsp; <small>is a central website for information management tools and services managed by UNOCHA. We have attended the IMWG and it is a key reference point for our work. &nbsp;<a href="https://www.humanitarianresponse.info/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                    <h4 class="no-margin"><strong>The NetHope Crisis Informatics Program</strong>&nbsp; <small>provides information management and data visualisation to improve coordination in a humanitarian emergencies and is in close contact with SIMS. &nbsp;<a href="http://informatics.nethope.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-sm-4">
-                            <div class="card external-resource">
-                                <div class="card-logo text-center">
-                                  <img src="img/logos/logo-sheltercluster.png" />
-                                </div>
-                                <div class="card-text">
-                                  <h4 class="no-margin"><strong>Shelter Cluster</strong>&nbsp; <small>is the standing coordination mechanism for shelter in response and is co-chaired by IFRC and UNHCR. SIMS works in close contact with the cluster sharing data and expertise. &nbsp;<a href="http://www.sheltercluster.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
-                                </div>
-                            </div>
-                            <div class="card external-resource">
-                                <div class="card-logo text-center">
-                                  <img src="img/logos/logo-acaps.png" />
-                                </div>
-                                <div class="card-text">
-                                  <h4 class="no-margin"><strong>ACAPS</strong>&nbsp; <small>is a non-profit set up to support the humanitarian community with needs assessments. SIMS also works in close contact with their teams exchanging both information and resources. &nbsp;<a href="http://www.acaps.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                            <div class="col-sm-4">
+                                <div class="card external-resource">
+                                    <div class="card-logo hid text-center">
+                                        <img class="external-card-images card-logo-fit-size" src="img/logos/logo-hid.png" />
+                                    </div>
+                                    <div class="card-text">
+                                        <h4 class="no-margin"><strong>Humanitarian ID</strong>&nbsp; <small>is an online app for simple and up-to-date contact lists that is both used and endorsed within SIMS. It hinges on the principle of staff checking in and out for each disaster. &nbsp;<a href="https://humanitarian.id/#/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card external-resource">
-                                <div class="card-logo text-center">
-                                  <img src="img/logos/logo-wb.png" />
+                                <div class="col-sm-4">
+                                    <div class="card external-resource">
+                                        <div class="card-logo text-center">
+                                            <img class="external-card-images card-logo-fit-size" src="img/logos/logo-rw.png" />
+                                        </div>
+                                        <div class="card-text">
+                                            <h4 class="no-margin"><strong>ReliefWeb</strong>&nbsp; <small>is a web service for all humanitarian news and updates and is used heavily in our compiling of secondary data. Our maps and products have also featured on the site in the past. &nbsp;<a href="http://reliefweb.int/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card-text">
-                                  <h4 class="no-margin"><strong>The World Bank</strong>&nbsp; <small>has a wealth of data openly available on its online data portal. We regularly use this source in the development of our maps and other products. &nbsp;<a href="http://data.worldbank.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
-                                </div>
-                            </div>
-                            <div class="card external-resource">
-                                <div class="card-logo text-center">
-                                  <img src="img/logos/logo-nethope.png" />
-                                </div>
-                                <div class="card-text">
-                                  <h4 class="no-margin"><strong>The NetHope Crisis Informatics Program</strong>&nbsp; <small>provides information management and data visualisation to improve coordination in a humanitarian emergencies and is in close contact with SIMS. &nbsp;<a href="http://informatics.nethope.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
-                                </div>
-                            </div>
 
+                        <!-- COL 3-->
 
-                        </div>
+                            <div class="col-sm-4">
+                                <div class="card external-resource">
+                                    <div class="card-logo text-center ">
+                                        <img class="external-card-images card-logo-fit-size" src="img/logos/logo-sheltercluster.png" />
+                                    </div>
+                                    <div class="card-text">
+                                        <h4 class="no-margin"><strong>Shelter Cluster</strong>&nbsp; <small>is the standing coordination mechanism for shelter in response and is co-chaired by IFRC and UNHCR. SIMS works in close contact with the cluster sharing data and expertise. &nbsp;<a href="http://www.sheltercluster.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-sm-4">
+                                    <div class="card external-resource">
+                                        <div class="card-logo text-center">
+                                            <img class="external-card-images" src="img/logos/logo-acaps.png" />
+                                        </div>
+                                        <div class="card-text">
+                                            <h4 class="no-margin"><strong>ACAPS</strong>&nbsp; <small>is a non-profit set up to support the humanitarian community with needs assessments. SIMS also works in close contact with their teams exchanging both information and resources. &nbsp;<a href="http://www.acaps.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="col-sm-4">
+                                        <div class="card external-resource">
+                                            <div class="card-logo text-center">
+                                                <img class="external-card-images card-logo-fit-size" src="img/logos/logo-wb.png" />
+                                            </div>
+                                            <div class="card-text">
+                                                <h4 class="no-margin"><strong>The World Bank</strong>&nbsp; <small>has a wealth of data openly available on its online data portal. We regularly use this source in the development of our maps and other products. &nbsp;<a href="http://data.worldbank.org/" target="_blank"><i class="fa fa-external-link"></i></a></small></h4>
+                                            </div>
+                                        </div>
+                                    </div>
 
 
                     </div>
                     <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <div class="section-spacer bg-black"></div>
+
+    <!-- About -->
+    <section id="toolkit" class="toolkit">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Field Assessment and Coordination Team Toolkit</h2>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="error-message-toolkit"><p><i>Sorry, somthing went wrong loading this resource. Please refresh the page. If the problem persists, send an email to <a href="mailto:daniel.joseph@redcross.org">email</a> with the name and version of the internet browser you are using. Thank you.</i></p></div>
+                    <div data-toolkitpath="toolkit" class="toolkit-block">
+                        <div class="contents"></div>
+                        <!-- ### folders and file links go here ### -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <div class="section-spacer"></div>
+
+    <!-- Dashboard  -->
+    <section id="dashboard">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2>SIMS Activations</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 hide-overflow hidden-xs">
+                    <div id="map">
+                        <p id="reset-line" class="col-sm-12">
+                            <button class="btn btn-md" style="visibility:hidden;">Error</button>
+                            <button id="reset-map" class="btn btn-danger btn-md reset" style="display: none;">Reset map and table filters</button>
+                            <span class="reset" style="display: none;"> | Current filter: <span class="filter"></span></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Table------------>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 visible-xs">
+                    <p>Information Management has been part of disaster response operations (deployed and remote) since 2011. An interactive map of all activations is available when viewing the website on a larger screen.</p>
+                    <p>You can download a table for all activations below.</p>
+                </div>
+                <p><strong>Summary of Activations</strong></p>
+                <p>
+                    <button id="download-data" class="btn btn-danger btn-md btn-dark">
+                        <i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download csv
+                    </button>
+                </p>
+                <div class="col-sm-10 col-sm-offset-1 hidden-xs">
+                    <div id="table" class="table table-hover"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section-spacerk"></div>
+
+    <!-- Contact  -->
+    <section id="feedback" class="feedback bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Feedback</h2>
+                    <div class="row">
+                        <p>This site is in the early stages of development. Please have patience as we add content and features.</p>
+                        <p>Suggestions for improvement are welcome and shall inform the periodic update of the site and tools. For technical issues with the website please send an <a href="mailto:daniel.joseph@redcross.org">email</a>.</p>
+                    </div>
+                    <!-- /.row (nested) -->
+
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -330,54 +486,10 @@
         <!-- /.container -->
     </section>
 
-  <div class="section-spacer"></div>
-
-  <!-- About -->
-  <section id="toolkit" class="toolkit">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2>Field Assessment and Coordination Team Toolkit</h2>
-              </div>
-              <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <div class="error-message-toolkit"><p><i>Sorry, somthing went wrong loading this resource. Please refresh the page. If the problem persists, send an email to <a href="mailto:daniel.joseph@redcross.org">email</a> with the name and version of the internet browser you are using. Thank you.</i></p></div>
-                    <div data-toolkitpath="toolkit" class="toolkit-block">
-                        <div class="contents"></div>
-                        <!-- ### folders and file links go here ### -->
-                    </div>
-              </div>
-          </div>
-          <!-- /.row -->
-      </div>
-      <!-- /.container -->
-  </section>
-
-  <div class="section-spacer"></div>
-
- <!-- Contact  -->
-    <section id="feedback" class="feedback">
-      <div class="container">
-                  <div class="row">
-                      <div class="col-lg-10 col-lg-offset-1 text-center">
-                          <h2>Feedback</h2>
-                          <div class="row">
-                            <p>This site is in the early stages of development. Please have patience as we add content and features.</p>
-                            <p>Suggestions for improvement are welcome and shall inform the periodic update of the site and tools. For technical issues with the website please send an <a href="mailto:daniel.joseph@redcross.org">email</a>.</p>
-                          </div>
-                          <!-- /.row (nested) -->
-
-                      </div>
-                      <!-- /.col-lg-10 -->
-                  </div>
-                  <!-- /.row -->
-              </div>
-              <!-- /.container -->
-      </div>
-
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
+    <footer class="bg-black">
+        <div class="container bg-black">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <p class="text-muted">CC-BY</p>
@@ -389,40 +501,44 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="js/crossfilter.js"></script>
+    <script type="text/javascript" src="js/dc.js"></script>
+    <script type="text/javascript" src="js/fileSaver.js"></script>
     <script src="js/blueimp-gallery.min.js"></script>
     <script src="js/sims.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/dashboard.js"></script>
 
     <script>
 
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
+        // Closes the sidebar menu
+        $("#menu-close").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
         });
-    });
+
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        // Scrolls to the selected menu item on the page
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
     </script>
 
 </body>
