@@ -51,3 +51,4 @@ Thumbs.db
 /.vs/config/applicationhost.config
 /.vs/sims-website/v14/.suo
 /sims-website.sln
+/node_modules
