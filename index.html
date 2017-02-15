@@ -451,12 +451,12 @@
                     <p>Information Management has been part of disaster response operations (deployed and remote) since 2011. An interactive map of all activations is available when viewing the website on a larger screen.</p>
                     <p>You can download a table for all activations below.</p>
                 </div>
-                <p><strong>Summary of Activations</strong></p>
-                <p>
-                    <button id="download-data" class="btn btn-danger btn-md btn-dark">
-                        <i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download csv
-                    </button>
-                </p>
+            <p><strong>Summary of Activations</strong></p>
+            <p>
+                <a id="download-data" class="btn btn-danger btn-md btn-dark" href="https://docs.google.com/spreadsheets/d/1u2ZH4VBOjH-Rk3p4g8yel1TsBvBuyzUfwAr9le36V_A/pub?output=csv">
+                    <i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download csv
+                </a>
+            </p>
                 <div class="col-sm-10 col-sm-offset-1 hidden-xs">
                     <div id="table" class="table table-hover"></div>
                 </div>
@@ -498,9 +498,10 @@
     </footer>
 
     <!-- Javascript libraries -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/vendor/all.min.js"></script>
+    <script type="text/javascript" src="js/vendor/tabletop.js"></script>
     <script type="text/javascript" src="js/vendor/blueimp-gallery.min.js"></script>
 
     <!-- Website javascript files -->
@@ -523,7 +524,7 @@
 
         // Scrolls to the selected menu item on the page
         $(function () {
-            $('a[href*=#]:not([href=#])').click(function () {
+            $('a[href*=\\#]:not([href=\\#])').click(function () {
                 if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
                     var target = $(this.hash);
