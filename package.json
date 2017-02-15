@@ -1,0 +1,25 @@
+{
+  "name": "sims-website",
+  "version": "1.0.0",
+  "description": "sims-website",
+  "main": "site.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zibethin/sims-website.git"
+  },
+  "author": "Thuong Nguyen (Zibethin)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zibethin/sims-website/issues"
+  },
+  "homepage": "https://github.com/Zibethin/sims-website#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.1"
+  }
+}

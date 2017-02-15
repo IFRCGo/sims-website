@@ -48,3 +48,7 @@ Thumbs.db
 #####################
 *.sublime-project
 *.sublime-workspace
+/.vs/config/applicationhost.config
+/.vs/sims-website/v14/.suo
+/sims-website.sln
+/node_modules
