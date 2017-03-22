@@ -73,7 +73,7 @@ function init() {
                     return a;
                 })
                 .columns(["Year", "Response", "Country", "Support", "Start Date", "End Date"])
-                .sortBy(function (a) { return [a["Year"], a["Response"]].join(); })
+                .sortBy(function (a) { return [a["Year"], a["Start Date"], a["Response"], a["Country"]].join(); })
                 .order(d3.descending)
                 .transitionDelay([1000]);
             } catch (e) { console.log("Error creating the table: ", e.message) }
