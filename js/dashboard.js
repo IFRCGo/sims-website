@@ -73,7 +73,7 @@ function init() {
                     return a;
                 })
                 .columns(["Year", "Response", "Country", "Support", "Start Date", "End Date"])
-                .sortBy(function (a) { return [a["Year"], a["Start Date"], a["Response"], a["Country"]].join(); })
+                .sortBy(function (a) { return [a["Year"], a["Response"]].join(); })
                 // Need to sort create an if function to sort by start date, then if one does not exist, to sort by year
                 .order(d3.descending)
                 .transitionDelay([1000]);
