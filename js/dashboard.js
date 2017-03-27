@@ -48,7 +48,7 @@ function init() {
                         .colors(paletteScale)
                         .transitionDelay([1500])
                         .colorCalculator(function (a) { return a ? worldMap.colors()(a) : "#d9d9d9" })
-                        .overlayGeoJson(mapData.features, "state", function (a) { return a.properties.NAME; });
+                        .overlayGeoJson(mapData.features, "state", function (a) {return a.properties.NAME;})
                 } catch (e) { console.log("Error creating the map: ", e.message); }
                 dc.renderAll();
 
