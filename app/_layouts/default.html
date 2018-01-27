@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ site.description }}">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+
+    <link href="{{ site.baseurl }}/assets/styles/vendor.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/styles/custom.css" rel="stylesheet">
+    
+    
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+              <a id="menu-toggle-sidebar" href="#" class="btn btn-secondary"><i class="fa fa-times"></i></a>
+                <li class="sidebar-brand">
+                    <a href="{{ site.baseurl }}/">SIMS</a>
+                </li>
+                <li>
+                    <a href="{{ site.baseurl }}/resources">Resources</a>
+                </li>
+                <li>
+                    <a href="{{ site.baseurl }}/toolkit">Toolkit</a>
+                </li>
+                <li>
+                    <a href="{{ site.baseurl }}/dashboard">Dashboard</a>
+                </li>
+                <li>
+                    <a href="{{ site.baseurl }}/network">Network</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <!--  keep all page content within the #page-content-wrapper -->
+        <div id="page-content-wrapper"> 
+            
+              <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle"><i class="fa fa-bars"></i></a>
+              
+              {{ content }}
+              
+
+        </div> <!-- /#page-content-wrapper -->
+
+    </div> <!-- /#wrapper -->
+
+    
+    
+
+
+</body>
+
+</html>

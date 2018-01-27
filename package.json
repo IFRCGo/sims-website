@@ -1,25 +1,39 @@
 {
   "name": "sims-website",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "sims-website",
-  "main": "site.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "[ -f _config-dev.yml ] || echo 'domain: http://localhost:3000\npath_prefix:' > _config-dev.yml",
+    "serve": "gulp serve",
+    "build": "gulp",
+    "test": "echo NO TESTS YET",
+    "install": "bundle install --path bundle/cache"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zibethin/sims-website.git"
+    "url": "git://github.com/AmericanRedCross/sims-website.git"
   },
-  "author": "Thuong Nguyen (Zibethin)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Zibethin/sims-website/issues"
-  },
-  "homepage": "https://github.com/Zibethin/sims-website#readme",
+  "author": "Dan Joseph (danbjoseph), Thuong Nguyen (Zibethin)",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/AmericanRedCross/sims-website#readme",
   "devDependencies": {
-    "del": "^2.2.2",
+    "browser-sync": "^2.23.5",
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.2",
     "gulp-concat": "^2.6.1",
-    "gulp-uglify": "^2.0.1"
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "request": "^2.83.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "blueimp-gallery": "^2.29.0",
+    "bootstrap": "4.0.0",
+    "d3": "^3.5.17",
+    "dc": "^2.1.9",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "tabletop": "^1.5.2"
   }
 }

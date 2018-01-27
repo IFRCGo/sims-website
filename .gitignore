@@ -1,7 +1,10 @@
-# Custom #
-##########
-/notes
 
+_site
+.tmp
+app/assets/vendor
+.bundle
+bundle
+_config-dev.yml
 
 # Compiled source #
 ###################

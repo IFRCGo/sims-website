@@ -1,0 +1,14 @@
+title:        SIMS
+source:       app
+description:  "The website for Surge Information Management Support (SIMS)."
+baseurl:      ""
+url:          ""
+
+permalink: pretty
+
+collections:
+  network:
+    output: true
+    permalink: /network/:path/
+
+markdown: kramdown

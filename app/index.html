@@ -1,0 +1,72 @@
+---
+layout: default
+permalink: /
+---
+
+<link href="{{ site.baseurl }}/assets/vendor/blueimp-gallery/blueimp-gallery.min.css" rel="stylesheet">
+
+<div id="top"></div>
+
+<!-- Banner -->
+<section id="banner">
+  <div class="container">
+    <div class="row justify-content-center">  
+      <div class="col-10">
+        <h1 class="display-3">SIMS</h1>
+        <h3 class="">Surge Information Management Support</h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 text-center">
+        <h2>What is SIMS?</h2>
+        <p>The Surge Information Management Support (SIMS) project is a network of trained specialists who develop, coordinate and implement information management systems for global Red Cross and Red Crescent disaster response operations.</p>
+        <p> SIMS specialists, who include staff and volunteers from national societies and the IFRC, help operations leverage the power of mapping, data management and visualization tools to support decision making and enhance reporting.</p>
+        <p>When a disaster occurs, SIMS is activated through the IFRC Disaster Crisis Management Surge Desk to provide either remote or field-based support to operations, according to disaster scale, complexity and impact of the event. In addition to direct operational support, SIMS also serves as a network for information management coordination and capacity building, helping improve information management standards, tools, and expertise across response operations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="gallery">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 text-center">
+        <h2>Information Product Examples</h2>
+        <div class="error-message-gallery">
+          <p><i>Sorry, something went wrong loading this resource. Please refresh the page. If the problem persists, send an email to <a href="mailto:daniel.joseph@redcross.org">daniel.joseph@redcross.org</a> with the name and version of the internet browser you are using. Thank you.</i></p>
+        </div>
+        <div id="gallery-links"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div class="section-spacer"></div>
+
+{% include footer.html %}
+
+{% include scripts.html %}
+
+<script src="{{ site.baseurl }}/assets/scripts/d3.min.js"></script>
+<script src="{{ site.baseurl }}/assets/scripts/blueimp-gallery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/scripts/gallery.js"></script>
