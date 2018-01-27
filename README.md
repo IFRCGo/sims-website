@@ -4,7 +4,9 @@
 ## Contributing
 
 ### Update network directory
-- TODO
+- Copy a person's profile `/app/_network/first-last.md` and rename it
+- Add a 1:1 aspect ratio picture to `app/assets/img/network/`
+- Add a logo for your National society to `app/assets/img/ns/`
 
 ### Update toolkit
 - TODO
