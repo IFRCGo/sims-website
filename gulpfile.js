@@ -30,7 +30,7 @@ gulp.task('styles', function() {
       ]
       
   return gulp.src(stylesSrc)
-  .pipe(cleanCSS({compatibility: 'ie9', rebase: false}))
+  // .pipe(cleanCSS({compatibility: 'ie9', rebase: false}))
   .pipe(concat('vendor.min.css'))
   .pipe(gulp.dest('.tmp/assets/styles'))
 
