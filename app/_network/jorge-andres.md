@@ -5,7 +5,7 @@ permalink: network/jorge-andres/
 
 name:       Jorge Andrés Gálvez
 ns:         MapAction 
-ns-img:     
+ns-img:     MAlogo.png
 position:   GIS Specialist
 image:      miFoto.jpg
 email:      jandres@mapaction.org
