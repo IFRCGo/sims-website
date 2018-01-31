@@ -7,7 +7,7 @@ name:       Assanke Koedam
 org:         IFRC Africa Regional Office
 org-img:    americanredcross.png
 position:   Delegate, Information Management
-image:      assanke-koedam.jpg
+image:      assanke-koedam.png
 email:      assanke.koedam@ifrc.org
 github:     assankekoedam
 osm:        assankekoedam
