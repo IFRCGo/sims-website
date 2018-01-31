@@ -7,7 +7,7 @@ name:       Jill Neeman
 Org:         American Red Cross
 Org-img:     americanredcross.png
 position:   Volunteer
-image:      
+image:      jill-neeman.jpg
 email:      jill.neeman@redcross.org
 github:    jill.neeman
 osm:        
