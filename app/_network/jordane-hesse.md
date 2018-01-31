@@ -7,7 +7,7 @@ name:       Jordane Hesse
 ns:         Luxembourg Red Cross
 ns-img:     americanredcross.png
 position:   Relief Cash IM ERU/ FACT
-image:      dan-joseph.jpg
+image:      ID_JH.jpg
 email:      sjordane@gmail.com
 github:     sjordane
 skype:      skypejordane
