@@ -1,0 +1,21 @@
+---
+layout: person
+category: team
+permalink: network/guido-pizzini/
+
+name:       Guido Pizzini
+Org:         IFRC
+Org-img:     americanredcross.png
+position:   Senior Information Management and Data Analysis Offiver
+image:      GoGuido.jpg
+email:      guido.pizzini@ifrc.org
+github:     guipizzini
+osm:        guipizzini
+skype:      guido.pizzini
+twitter:    guipizzini
+languages:  [en]
+
+published: true
+---
+
+Hello :)
