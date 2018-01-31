@@ -1,11 +1,11 @@
 ---
 layout: person
-category: team
+category: network
 permalink: network/dan-joseph/
 
 name:       Dan Joseph
-ns:         American Red Cross
-ns-img:     americanredcross.png
+org:        American Red Cross
+org-img:    americanredcross.png
 position:   GIS Officer
 image:      dan-joseph.jpg
 email:      daniel.joseph@redcross.org
@@ -13,6 +13,7 @@ github:     danbjoseph
 osm:        danbjoseph
 skype:      danielbjoseph
 twitter:    danbjoseph
+trello:     danbjoseph
 languages:  [en]
 
 published: true
