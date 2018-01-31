@@ -17,4 +17,4 @@ languages:  [fr][en][sp]
 published: true
 ---
 
-Jordane is part of the emergency response unit (ERU and FACT) to assist with disaster response in Relief/ Cash and IM.
+Jordane is part of the emergency response unit as ERU and FACT to assist with disaster response in Relief/ Cash and IM.
