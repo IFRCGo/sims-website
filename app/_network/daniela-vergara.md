@@ -5,14 +5,14 @@ permalink: network/daniela-vergara/
 
 name:       Daniela Vergara
 ns:         IFRC Americas Regional Office
-ns-img:     americanredcross.png
+ns-img:     danielavr.jpeg
 position:   Surge Capacity Senior Officer
 image:      dan-joseph.jpg
 email:      daniela.vergara@ifrc.org  
 github:     iamdanielavergara
-osm:        
+osm:        none
 skype:      danielavrivera
-twitter:    
+twitter:    none
 languages:  [en, es]
 
 published: true
