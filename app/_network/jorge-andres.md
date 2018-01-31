@@ -7,7 +7,7 @@ name:       Jorge Andrés Gálvez
 ns:         MapAction 
 ns-img:     
 position:   GIS Specialist
-image:      
+image:      miFoto.jpg
 email:      jandres@mapaction.org
 github:     jorgeGIS
 osm:        
