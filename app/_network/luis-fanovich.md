@@ -5,7 +5,7 @@ permalink: network/luis-fanovich/
 
 name:       Luis Fanovich
 org:        IFRC Americas
-ns-img:     
+ns-img:     ifrc_en.jpg
 position:   IM Senior Officer
 image:      
 email:      luis.fanovich
