@@ -5,7 +5,7 @@ permalink: network/paul-knight/
 
 name:       Paul Knight
 org:        British Red Cross
-org-img:     
+org-img:    britishredcross.png
 position:   GIS Analyst
 image:      
 email:      paulknight@redcross.org.uk
