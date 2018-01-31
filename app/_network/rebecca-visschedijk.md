@@ -7,13 +7,13 @@ name:       Rebecca Visschedijk
 org:        Netherlands Red Cross
 ns-img:     
 position:   IM Officer
-image:      
+image:      rebecca-visschedijk.jpg
 email:      RVisschedijk@redcross.nl
 github:     rbavisschedijk-rc
 osm:        
 skype:      rebecca.visschedijk
 twitter:    
-languages:  [en][nl]
+languages:  [en,nl]
 
 published: true
 ---
