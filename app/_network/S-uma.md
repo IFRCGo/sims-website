@@ -1,13 +1,13 @@
 ---
 layout: person
 category: team
-permalink: 
+permalink: network/s-uma/
 
 name:       S Umakanthan
 ns:         Sri Lanka Red Cross
 ns-img:     
 position:   PMER Officer
-image:      s-uma.jpg
+image:      s-uma.JPG
 email:      selvarajasingham.umakanthan@ifrc.org
 github:     uma23sims
 osm:        

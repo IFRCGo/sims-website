@@ -7,7 +7,7 @@ name:       Raquel Bernedo Pardal
 ns:         Spanish Red Cross
 ns-img:     spanishredcross.png
 position:   DM Officer
-image:      raquelbernedo.jpg
+image:      raquel-bernedo.jpg
 email:      del.rbp@cruzroja.es
 github:     raquelbernedo
 osm:        Berpita

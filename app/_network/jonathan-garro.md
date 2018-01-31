@@ -7,7 +7,7 @@ name:       Jonathan Garro
 org:         American Red Cross
 ns-img:     americanredcross.png
 position:   Disaster Information Analyst
-image:      jonathan-garro.jpg
+image:      jonathan-garro.png
 email:      jonathan.garro@redcross.org
 github:     jonathangarro
 osm:        jonathangarro
