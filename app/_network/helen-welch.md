@@ -7,7 +7,7 @@ name:       Helen Welch
 org:         American Red Cross
 org-img:     americanredcross.png
 position:   Information Management, Monitoring Evalaution and Learning Director
-image:      
+image:      helen-welch.png
 email:      helen.welch@redcross.org
 github:     
 osm:        
