@@ -1,7 +1,7 @@
 ---
-layout: person
-category: team
-permalink: network/emil-tustanovski/
+layout:     person
+category:   network
+permalink:  network/emil-tustanovski/
 
 name:       Emil Tustanovski
 ns:         Croatian Red Cross
@@ -15,7 +15,7 @@ skype:      emil.tustanovski@outlook.com
 twitter:    none
 languages:  [en]
 
-published: true
+published:  true
 ---
 
 Definitely not Dan Jones.
