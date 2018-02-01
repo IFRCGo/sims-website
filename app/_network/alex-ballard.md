@@ -7,7 +7,7 @@ name:       Alex Ballard
 org:        British Red Cross
 org-img:    britishredcross.png
 position:   GIS Analyst
-image:      alex-ballard.png
+image:      alex-ballard.jpg
 email:      ABallard@redcross.org.uk
 github:     ballardalexander
 osm:        alexander ballard

@@ -7,7 +7,7 @@ name:       Guido Pizzini
 org:        IFRC
 org-img:    ifrc.png
 position:   Senior Information Management and Data Analysis Officer
-image:      GoGuido.jpg
+image:      guido-pizzini.jpg
 email:      guido.pizzini@ifrc.org
 github:     guipizzini
 osm:        guipizzini
