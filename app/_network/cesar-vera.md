@@ -7,7 +7,7 @@ name:       Cesar Vera
 org:        Paraguayan Red Cross
 org-img:    
 position:   Risk Reuction Referent
-image:      
+image:      cesar-vera.jpg
 email:      cesarvera6@gmail.com
 github:     cesarvera66
 osm:        
