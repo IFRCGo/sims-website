@@ -1,7 +1,7 @@
 ---
-layout: person
-category: team
-permalink: network/rachel-yales/
+layout:     person
+category:   network
+permalink:  network/rachel-yales/
 
 name:       Rachel Yales
 org:        IFRC
