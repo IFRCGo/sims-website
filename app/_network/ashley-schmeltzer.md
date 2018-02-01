@@ -7,7 +7,7 @@ name:       Ashley Schmeltzer
 org:        American Red Cross
 org-img:    americanredcross.png
 position:   GIS Officer
-image:      schmeltz.jpg
+image:      ashley-schmeltzer.jpg
 email:      ashley.schmeltzer@redcross.org
 github:     schmeltz
 osm:        schmeltzer
