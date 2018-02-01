@@ -4,10 +4,10 @@ category:   network
 permalink:  network/emil-tustanovski/
 
 name:       Emil Tustanovski
-ns:         Croatian Red Cross
-ns-img:     
+org:        Croatian Red Cross
+org-img:    
 position:   DM Officer / Developer
-image:      
+image:      emil-tustanovski.jpg
 email:      emil.tustanovski@hck.hr 
 github:     Aemillus
 osm:        none
