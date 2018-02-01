@@ -1,7 +1,7 @@
 ---
-layout: person
-category: team
-permalink: network/stefania-giodini/
+layout:     person
+category:   network
+permalink:  network/stefania-giodini/
 
 name:       Stefania Giodini
 ns:         Netherlands Red Cross
@@ -13,8 +13,8 @@ github:     stefania510
 osm:        stefania510
 skype:      Stefania Giodini (NLRC/510)
 twitter:    510stefania
-languages:  [it] [en] [nl]
+languages:  [it,en,nl]
 
-published: false
+published: true
 ---
 Stefania co-leads the 510 data team of the Netherlands Red Cross www.510.global
