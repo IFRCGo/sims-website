@@ -1,7 +1,7 @@
 ---
-layout: person
-category: team
-permalink: network/guillermo-gonzalez/
+layout:     person
+category:   network
+permalink:  network/guillermo-gonzalez/
 
 name:       Guillermo Gonzalez
 org:        Spanish Red Cross
@@ -10,10 +10,10 @@ position:   IM Volunteer
 image:      guillermo-gonzalez.jpg
 email:      del.ggf@cruzroja.es
 github:     guillermogfer
-osm:        -
+osm:        
 skype:      guillermo.gonzalez.fernandez
-twitter:    -
-languages:  [es, en]
+twitter:    
+languages:  [es,en]
 
 published: true
 ---
