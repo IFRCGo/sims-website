@@ -5,7 +5,7 @@ permalink:  network/raquel-bernedo/
 
 name:       Raquel Bernedo Pardal
 org:        Spanish Red Cross
-org-img:    
+org-img:    spanishredcross.png
 position:   DM Officer
 image:      raquel-bernedo.jpg
 email:      del.rbp@cruzroja.es
