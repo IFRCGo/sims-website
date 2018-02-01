@@ -4,8 +4,8 @@ category: team
 permalink: network/guido-pizzini/
 
 name:       Guido Pizzini
-Org:        IFRC
-ns-img:     IFRC.png
+org:        IFRC
+org-img:     IFRC.png
 position:   Senior Information Management and Data Analysis Offiver
 image:      GoGuido.jpg
 email:      guido.pizzini@ifrc.org
