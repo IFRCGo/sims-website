@@ -1,12 +1,12 @@
 ---
-layout: person
-category: team
-permalink: network/guido-pizzini/
+layout:     person
+category:   network
+permalink:  network/guido-pizzini/
 
 name:       Guido Pizzini
 org:        IFRC
-org-img:     IFRC.png
-position:   Senior Information Management and Data Analysis Offiver
+org-img:    ifrc.png
+position:   Senior Information Management and Data Analysis Officer
 image:      GoGuido.jpg
 email:      guido.pizzini@ifrc.org
 github:     guipizzini

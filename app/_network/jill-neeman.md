@@ -1,15 +1,15 @@
 ---
-layout: person
-category: team
-permalink: network/jill-neeman/
+layout:     person
+category:   network
+permalink:  network/jill-neeman/
 
 name:       Jill Neeman
-Org:         American Red Cross
-Org-img:     americanredcross.png
+org:        American Red Cross
+org-img:    americanredcross.png
 position:   Volunteer
 image:      jill-neeman.jpg
 email:      jill.neeman@redcross.org
-github:    jill.neeman
+github:     jill.neeman
 osm:        
 skype:      jillneeman
 twitter:    jillneeman

@@ -1,13 +1,13 @@
 ---
-layout: person
-category: team
-permalink: network/Mununuri-Musori/
+layout:     person
+category:   network
+permalink:  network/mununuri-musori/
 
 name:       Mununuri Musori
 org:        IFRC
-ns-img:     ifrc.png
+org-img:    ifrc.png
 position:   Snr Officer IM Planning & Reporting
-image:      Mununuri-Musori.jpeg
+image:      mununuri-musori.jpg
 email:      mununuri.musori@ifrc.org
 github:     mmusori
 osm:        mmusori

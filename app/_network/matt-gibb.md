@@ -1,11 +1,11 @@
 ---
-layout: person
-category: team
-permalink: network/matt-gibb/
+layout:     person
+category:   network
+permalink:  network/matt-gibb/
 
 name:       Matthew Gibb
-ns:         American Red Cross
-ns-img:     americanredcross.png
+org:        American Red Cross
+org-img:    americanredcross.png
 position:   GIS Officer
 image:      matt-gibb.jpg
 email:      matthew.gibb@redcross.org

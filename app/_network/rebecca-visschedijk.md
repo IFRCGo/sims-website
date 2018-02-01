@@ -1,11 +1,11 @@
 ---
-layout: person
-category: team
-permalink: network/rebecca-visschedijk/
+layout:     person
+category:   network
+permalink:  network/rebecca-visschedijk/
 
 name:       Rebecca Visschedijk
 org:        Netherlands Red Cross
-ns-img:     
+org-img:     
 position:   IM Officer
 image:      rebecca-visschedijk.jpg
 email:      RVisschedijk@redcross.nl

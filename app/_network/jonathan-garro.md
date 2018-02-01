@@ -1,11 +1,11 @@
 ---
-layout: person
-category: team
-permalink: network/jonathan-garro/
+layout:     person
+category:   network
+permalink:  network/jonathan-garro/
 
 name:       Jonathan Garro
-org:         American Red Cross
-ns-img:     americanredcross.png
+org:        American Red Cross
+org-img:    americanredcross.png
 position:   Disaster Information Analyst
 image:      jonathan-garro.png
 email:      jonathan.garro@redcross.org

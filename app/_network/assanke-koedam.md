@@ -1,11 +1,11 @@
 ---
-layout: person
-category: team
-permalink: network/assanke-koedam/
+layout:     person
+category:   network
+permalink:  network/assanke-koedam/
 
 name:       Assanke Koedam
-org:         IFRC Africa Regional Office
-org-img:    americanredcross.png
+org:        IFRC Africa Regional Office
+org-img:    britishredcross.gif
 position:   Delegate, Information Management
 image:      assanke-koedam.png
 email:      assanke.koedam@ifrc.org

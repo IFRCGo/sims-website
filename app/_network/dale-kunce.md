@@ -1,7 +1,7 @@
 ---
-layout: person
-category: network
-permalink: network/dale-kunce/
+layout:     person
+category:   network
+permalink:  network/dale-kunce/
 
 name:       Dale Kunce
 org:        American Red Cross

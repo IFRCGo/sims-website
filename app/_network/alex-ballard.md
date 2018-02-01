@@ -1,11 +1,11 @@
 ---
-layout: person
-category: team
-permalink: network/alex-ballard/
+layout:     person
+category:   network
+permalink:  network/alex-ballard/
 
 name:       Alex Ballard
-org:         British Red Cross
-ns-img:     britishredcross.png
+org:        British Red Cross
+org-img:    britishredcross.png
 position:   GIS Analyst
 image:      alex-ballard.png
 email:      ABallard@redcross.org.uk

@@ -1,11 +1,11 @@
 ---
-layout: person
-category: team
-permalink: network/raquel-bernedo/
+layout:     person
+category:   network
+permalink:  network/raquel-bernedo/
 
 name:       Raquel Bernedo Pardal
-ns:         Spanish Red Cross
-ns-img:     spanishredcross.png
+org:        Spanish Red Cross
+org-img:    
 position:   DM Officer
 image:      raquel-bernedo.jpg
 email:      del.rbp@cruzroja.es
@@ -13,7 +13,7 @@ github:     raquelbernedo
 osm:        Berpita
 skype:      Raquel Bernedo
 twitter:    raquelberpita
-languages:  [en, es]
+languages:  [en,es]
 
 published: true
 ---

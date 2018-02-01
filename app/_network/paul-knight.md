@@ -1,11 +1,11 @@
 ---
-layout: person
-category: team
-permalink: network/paul-knight/
+layout:     person
+category:   network
+permalink:  network/paul-knight/
 
 name:       Paul Knight
 org:        British Red Cross
-org-img:    britishredcross.png
+org-img:    britishredcross.gif
 position:   GIS Analyst
 image:      paul-knight.png
 email:      paulknight@redcross.org.uk
