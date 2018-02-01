@@ -1,13 +1,13 @@
 ---
-layout: person
-category: team
-permalink: network/david-callaghan/
+layout:     person
+category:   network
+permalink:  network/david-callaghan/
 
 name:       David Callaghan
 org:        British Red Cross
 ns-img:     britishredcross.png
 position:   GIS Analyst
-image:      david_callaghan.jpg
+image:      david-callaghan.jpg
 email:      dcallaghan@redcross.org.uk
 github:     DavidCallaghan
 osm:        Mr_Callaghan
@@ -18,4 +18,4 @@ languages:  [en]
 published: true
 ---
 
-I sometimes make maps
+I sometimes make maps.

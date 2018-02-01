@@ -1,7 +1,7 @@
 ---
-layout: person
-category: team
-permalink: network/ashley-schmeltzer/
+layout:     person
+category:   team
+permalink:  network/ashley-schmeltzer/
 
 name:       Ashley Schmeltzer
 org:        American Red Cross

@@ -1,7 +1,7 @@
 ---
-layout: person
-category: network
-permalink: network/jorge-andres/
+layout:     person
+category:   network
+permalink:  network/jorge-andres/
 
 name:       Jorge Andrés Gálvez
 org:        MapAction 
