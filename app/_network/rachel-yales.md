@@ -5,14 +5,14 @@ permalink: network/rachel-yales/
 
 name:       Rachel Yales
 org:        IFRC
-org-img:    
+org-img:    ifrc.png
 position:   IM Delegate
-image:      
+image:      rachel-yales.png
 email:      rachel.yales@ifrc.org
 github:     ryales
 osm:        YalCat
 skype:      rcdash15
-twitter:    
+twitter:    yacara15
 languages:  [en]
 
 published: true
