@@ -15,5 +15,5 @@ skype:
 twitter:    
 languages:  [en]
 
-published: false
+published:  true
 ---
