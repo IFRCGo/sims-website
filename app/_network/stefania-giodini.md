@@ -4,8 +4,8 @@ category:   network
 permalink:  network/stefania-giodini/
 
 name:       Stefania Giodini
-ns:         Netherlands Red Cross
-ns-img:     netherlandsredcross.png
+org:        Netherlands Red Cross
+org-img:    netherlandsredcross.png
 position:   Team Leader 510 Data Team
 image:      stefania-giodini.jpg
 email:      sgiodini@redcross.nl

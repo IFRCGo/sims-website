@@ -5,7 +5,7 @@ permalink:  network/david-callaghan/
 
 name:       David Callaghan
 org:        British Red Cross
-ns-img:     britishredcross.png
+org-img:    britishredcross.png
 position:   GIS Analyst
 image:      david-callaghan.jpg
 email:      dcallaghan@redcross.org.uk

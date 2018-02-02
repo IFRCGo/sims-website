@@ -1,6 +1,6 @@
 ---
 layout:     person
-category:   team
+category:   network
 permalink:  network/ashley-schmeltzer/
 
 name:       Ashley Schmeltzer
