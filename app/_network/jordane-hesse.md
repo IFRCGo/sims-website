@@ -7,7 +7,7 @@ name:       Jordane Hesse
 org:        Croix Rouge luxembourgeoise
 org-img:    crlux.png
 position:   Data analyst & MDC developer, specialised in Cash
-image:      ID_JH.jpg
+image:      jordane-hesse.jpg
 email:      sjordane@gmail.com
 github:     sjordane
 osm:        
