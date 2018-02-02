@@ -1,11 +1,11 @@
 ---
-layout: person
-category: team
-permalink: network/pierre-grandidier/
+layout:     person
+category:   network
+permalink:  network/pierre-grandidier/
 
 name:       Pierre Grandidier
-ns:         Croix-Rouge luxembourgeoise
-ns-img:     
+org:        Croix-Rouge Luxembourgeoise
+org-img:     
 position:   Relief ERU and Cash-IM
 image:      
 email:      grandidier@gmail.com
