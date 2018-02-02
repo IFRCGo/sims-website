@@ -1,7 +1,7 @@
 ---
-layout: person
-category: team
-permalink: network/roxanne-moore/
+layout:     person
+category:   network
+permalink:  network/roxanne-moore/
 
 name:       Roxanne Moore
 org:        International Federation of Red Cross and Red Crescent Societies
