@@ -13,14 +13,77 @@
 /* Team */
 
 
-Contributor: Zibethin
-Github: https://github.com/Zibethin
-
 Contributor: danbjoseph
 Github: https://github.com/danbjoseph
+
+Contributor: Zibethin
+Github: https://github.com/Zibethin
 
 Contributor: pknight03
 Github: https://github.com/pknight03
 
+Contributor: iamdanielavergara
+Github: https://github.com/iamdanielavergara
+
+Contributor: rbavisschedijk-rc
+Github: https://github.com/rbavisschedijk-rc
+
+Contributor: guipizzini
+Github: https://github.com/guipizzini
+
+Contributor: luisfanovich
+Github: https://github.com/luisfanovich
+
 Contributor: dalekunce
 Github: https://github.com/dalekunce
+
+Contributor: cesarvera66
+Github: https://github.com/cesarvera66
+
+Contributor: jorgeGIS
+Github: https://github.com/jorgeGIS
+
+Contributor: guillermogfer
+Github: https://github.com/guillermogfer
+
+Contributor: JonathanGarro
+Github: https://github.com/JonathanGarro
+
+Contributor: assankekoedam
+Github: https://github.com/assankekoedam
+
+Contributor: hwelch427
+Github: https://github.com/hwelch427
+
+Contributor: jneeman
+Github: https://github.com/jneeman
+
+Contributor: ryales
+Github: https://github.com/ryales
+
+Contributor: Aemillus
+Github: https://github.com/Aemillus
+
+Contributor: DavidCallaghan
+Github: https://github.com/DavidCallaghan
+
+Contributor: mmusori
+Github: https://github.com/mmusori
+
+Contributor: raquelbernedo
+Github: https://github.com/raquelbernedo
+
+Contributor: ballardalexander
+Github: https://github.com/ballardalexander
+
+Contributor: stefania510
+Github: https://github.com/stefania510
+
+Contributor: uma23sims
+Github: https://github.com/uma23sims
+
+Contributor: giblet22
+Github: https://github.com/giblet22
+
+Contributor: schmeltz
+Github: https://github.com/schmeltz
