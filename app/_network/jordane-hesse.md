@@ -13,7 +13,7 @@ github:     sjordane
 osm:        
 skype:      skypejordane
 twitter:    
-languages:  [fr][en][sp]
+languages:  [fr,en,es]
 
 published: true
 ---
