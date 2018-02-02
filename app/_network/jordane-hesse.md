@@ -1,11 +1,11 @@
 ---
-layout: person
-category: network
-permalink: network/jordane-hesse/
+layout:     person
+category:   network
+permalink:  network/jordane-hesse/
 
 name:       Jordane Hesse
-ns:         Croix Rouge luxembourgeoise
-ns-img:     crlux.png
+org:        Croix Rouge luxembourgeoise
+org-img:    crlux.png
 position:   Data analyst & MDC developer, specialised in Cash
 image:      ID_JH.jpg
 email:      sjordane@gmail.com
