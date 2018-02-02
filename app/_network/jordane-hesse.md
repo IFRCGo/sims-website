@@ -4,14 +4,15 @@ category: network
 permalink: network/jordane-hesse/
 
 name:       Jordane Hesse
-ns:         Luxembourg Red Cross
+ns:         Croix Rouge luxembourgeoise
 ns-img:     crlux.png
 position:   Data analyst & MDC developer, specialised in Cash
 image:      ID_JH.jpg
 email:      sjordane@gmail.com
 github:     sjordane
+osm:        
 skype:      skypejordane
-trello:     jordanehesse
+twitter:    
 languages:  [fr][en][sp]
 
 published: true
