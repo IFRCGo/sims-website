@@ -7,13 +7,13 @@ name:       Daniela Vergara
 org:         IFRC Americas Regional Office
 org-img:     IFRC.png
 position:   Surge Capacity Senior Officer
-image:      danielavr.jpeg
+image:      daniela-vergara.jpeg
 email:      daniela.vergara@ifrc.org  
 github:     iamdanielavergara
 osm:        none
 skype:      danielavrivera
 twitter:    none
-languages:  [en, es]
+languages:  [en,es]
 
 published: true
 ---
