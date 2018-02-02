@@ -5,9 +5,9 @@ permalink:  network/pierre-grandidier/
 
 name:       Pierre Grandidier
 org:        Croix-Rouge Luxembourgeoise
-org-img:     
+org-img:    crlux.png 
 position:   Relief ERU and Cash-IM
-image:      
+image:      pierre-grandidier.jpg
 email:      grandidier@gmail.com
 github:     pierregrandidier
 osm:        pierregrandidier

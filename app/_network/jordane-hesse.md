@@ -4,7 +4,7 @@ category:   network
 permalink:  network/jordane-hesse/
 
 name:       Jordane Hesse
-org:        Croix Rouge luxembourgeoise
+org:        Croix Rouge Luxembourgeoise
 org-img:    crlux.png
 position:   Data analyst & MDC developer, specialised in Cash
 image:      jordane-hesse.jpg
