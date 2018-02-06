@@ -7,7 +7,7 @@ name:       Laura Avelino
 org:        Canada Red Cross
 ns-img:     canadianredcross.png
 position:   IM Officer
-image:      laura-avelino.jpg
+image:      IMG_0049.jpg
 email:      laura.avelino@redcross.ca
 github:     LAvelino
 osm:        LAvelino
