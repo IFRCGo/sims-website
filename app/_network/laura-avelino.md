@@ -4,7 +4,7 @@ category: network
 permalink: network/laura-avelino/
 
 name:       Laura Avelino
-org:        Canada Red Cross
+org:        Canadian Red Cross
 ns-img:     canadianredcross.png
 position:   IM Officer
 image:      IMG_0049.jpg
