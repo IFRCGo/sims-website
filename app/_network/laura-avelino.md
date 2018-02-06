@@ -18,4 +18,4 @@ languages:  [en, pt, fr]
 published: true
 ---
 
-Laura is the Information Management Officer with the Canadian Red Cross International Operations department, primarily working on database management, data literacy, data analysis, and dashboarding. Throughout her Red Cross life, Laura has worked in various sectors of Emergency Management (operations, people services, information management) in several Canadian operations.
+Laura is the Information Management Officer with the Canadian Red Cross International Operations department, primarily working on database management, data literacy, data analysis, and dashboarding. Within the Red Cross movement, I have supported several Canadian operaionts in several sectors of Emergency Management (operations, people services, information management), as well as experience with Restoring Family Links and International Humanitarian Law programming.
