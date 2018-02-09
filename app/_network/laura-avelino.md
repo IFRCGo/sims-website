@@ -1,11 +1,11 @@
 ---
-layout: person
-category: network
-permalink: network/laura-avelino/
+layout:     person
+category:   network
+permalink:  network/laura-avelino/
 
 name:       Laura Avelino
 org:        Canadian Red Cross
-ns-img:     canadianredcross.png
+org-img:    canadianredcross.png
 position:   IM Officer
 image:      IMG_0049.jpg
 email:      laura.avelino@redcross.ca
@@ -13,7 +13,7 @@ github:     LAvelino
 osm:        LAvelino
 skype:      Laura Avelino - CRC
 twitter:    LCOAvelino
-languages:  [en, pt, fr]
+languages:  [en,pt,fr]
 
 published: true
 ---
