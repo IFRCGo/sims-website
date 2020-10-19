@@ -46,7 +46,7 @@ function fetchData(){
 
   $.ajax({
     type: "GET",
-    url: "http://webviz.redcross.org/sims/toolkit",
+    url: "https://webviz.redcross.org/sims/toolkit",
     error: function(err){
       $(".error-message-toolkit").show();
     },
@@ -85,7 +85,7 @@ function buildToolkit(data){
     for(var i=0; i<data.length; i++){
       if(systemFile(data[i].basename) === false){
         var thisHtml = '<div class="toolkit-card toolkit-doc"><div class="color">' + typeIcon(data[i].ext) + '</div>' +
-          '<div class="text"><a target="_blank" href="http://webviz.redcross.org/sims/docs/toolkit/';
+          '<div class="text"><a target="_blank" href="https://webviz.redcross.org/sims/docs/toolkit/';
         thisHtml += (data[i].dboxpathparts.length > 1) ? data[i].dboxpathparts.slice(1).join('/') + '/' : '';
         thisHtml += data[i].basename + '">' +
           data[i].basename.slice(0,data[i].basename.indexOf(data[i].ext)) + ' &nbsp; ' +  '</a></div></div>';

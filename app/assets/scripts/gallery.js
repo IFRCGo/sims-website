@@ -6,7 +6,7 @@ function buildGallery(response){
     });
 
     var linksContainer = $('#gallery-links')
-    var baseUrl = "http://webviz.redcross.org/sims/docs/gallery/";
+    var baseUrl = "https://webviz.redcross.org/sims/docs/gallery/";
     var galleryLinks = thumbnailObjects.map(function(d){ return baseUrl + fullImages[d.basename.slice(0,d.basename.indexOf("_THUMB"))]; })
 
 
@@ -36,7 +36,7 @@ function buildGallery(response){
 
 $.ajax({
   type: "GET",
-  url: "http://webviz.redcross.org/sims/gallery",
+  url: "https://webviz.redcross.org/sims/gallery",
   error: function(err){
     $(".error-message-gallery").show();
   },
