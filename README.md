@@ -37,7 +37,7 @@ To set up the development environment for this website, you'll need to install t
 - `nvm use`
 - [rvm](https://rvm.io/) and [Bundler](http://bundler.io/)
 - `rvm use 2.3.1`
-- Gulp ( $ npm istall -g gulp )
+- Gulp ( $ npm install -g gulp )
 
 After these basic requirements are met, run the following commands in the website's folder:
 ```

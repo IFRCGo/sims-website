@@ -17,23 +17,21 @@
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/AmericanRedCross/sims-website#readme",
   "devDependencies": {
-    "browser-sync": "^2.23.5",
+    "browser-sync": "^2.26.13",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
-    "gulp-clean-css": "^3.9.2",
     "gulp-concat": "^2.6.1",
-    "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
     "request": "^2.83.0",
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
     "blueimp-gallery": "^2.29.0",
-    "bootstrap": "4.0.0",
+    "bootstrap": "^4.5.3",
     "d3": "^3.5.17",
     "dc": "^2.1.9",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1",
-    "tabletop": "^1.5.2"
+    "jquery": "^3.5.1",
+    "tabletop": "^1.6.3"
   }
 }
