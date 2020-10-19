@@ -1,12 +1,11 @@
 language: ruby
 rvm:
-- 2.3.1
+- 2.7.0
 env:
   global:
   - TRAVIS_NODE_VERSION="v8.9.4"
-  - GH_REF=github.com/IFRCGo/sims-website.git
-  - DEPLOY_BRANCH=publish
-  - secure: YXKOlKUzMmm0a3PiS5F13KR0fEkFQ99CEu2eiQ0QRQt3bENcYZejdmnXRx1DORIKKP5zlmAmworDquDubGf8GZA878JDSyUkEOrIDa1jo+EOAuceDUVilSQ5EHcFtT5xz2ZXP8C7hyr9oHt5kWGDCDz1fjVmK/iuDQI0BuernTQggqT/9vZwlmEYSZLizSJtY1nCPIm4X/++q026hv6lzsRuIcVNHEnsqJMUpL7+H0k9rDp/2aOwhh1isdELlIIbzn/cnFigzoOra5ecizTFz9BovECWw/O/UbufGxIUZU4N3pHpqZvw/oiKwLXrjnhl5dYWz/NCMbT4Mpejxs0H9B8fo+QIm2K1r47O0y8SqZk2hrnY1sf63q/Et6Wa2fuVzsdfIo5SNYLxlzv9I+w/shGZfSMkpf9wV2CceRdY2AdQDQVJCeijvozAOaB9z+L+HCm/VSgAUMEEdgYW+gMRp1zRJn7glxOFij22+NxPZ0ykhUCfVX6pAbQhKserZox4bkQ7kCzzK/ztQ/7yuRVzXIH0/k7UFHObavl/FbZXzHeJt5Xb5HSZyAL3XfiFODGr2/+IxK/ra8RxQffZf+Ca968Vxi/CeI7t0GT3Q/bu30l0inKNJpeeCrTEzbt0nN6b3Lz7KoViKpCzCP1yM2/4g3wSMaPk8uPRgMnR9AyxztI=
+  matrix:
+    secure: b/V9oimWlG9xb+w1+vKrthLVzTfNCpiKFXU9EnpE2S7tIpqPuBesBZKBMSagNG5tfOZvjfPqH9yqMryxos92yZhHF2u1/yHIGYJvrA61E+hIplNUrAlbVTxuE4ckGZX+hz0PDDJ8sVSUSMqn6V9BIxZRyCFKU0Nf5t96WZ/G1l0CR4EReTASfmoZsepuFIf/42FmCOvrUStAy4JSXIn/DVpqR3y5CWYEyljtci3iunW5qngvhpdMUDulYBnWvYSdy19Qpspo6asH7AwZQ3hVO9OUF5bIk3GmUndPIUMZwwOAlR4Gy05jfNZamE7oX7NjCDB+MIrO5dY+3Q6I6II5QS44fCx1lcWwzaODshXZUvo7rshIoz85hv2CYnmCINY3P0fvhGwyYjwuEXR43cA3dhT8eqGwksiryp4VRbHvHtzpafOYf4wBDM1FGtLtRPGsRNzKunvnpHvH8paI0rx2yFTEuT+pbqDHPGh/n0v5DZoqP0QaUKpXduMaqLCSMF7Sfznd2QD+YiYvCS3LDk0hwlcWKfGmqhAOljHAfMwzCzOPpCXSqq0MGbjtBxNC/BBPoBELYJPDiaCc4/xri46a7DcXjGhCSoiUDSIFM0C3e0gms+kji7wsueOtws/ZPV9TJKxu0InfZc1ZHkwOF6ZZU2yMLkdZh3XQmFhP/OaWSaw=
 before_install:
 - chmod +x ./.build_scripts/deploy.sh
 before_script:
@@ -16,5 +15,11 @@ before_script:
 - npm install -g gulp
 - npm install
 script: gulp prod
-after_success:
-- "./.build_scripts/deploy.sh"
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: "$GH_TOKEN"
+  keep-history: false
+  on:
+    branch: publish
+  local_dir: _site
