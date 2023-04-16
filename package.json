@@ -17,7 +17,7 @@
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/AmericanRedCross/sims-website#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.13",
+    "browser-sync": "^2.29.1",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
