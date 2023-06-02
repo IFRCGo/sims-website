@@ -1,5 +1,4 @@
-## SIMS
-#### [rcrcsims.org](http://rcrcsims.org/)
+## Old SIMS website (retired 2023-06-02). The [rcrcsims.org](http://rcrcsims.org/) URL now points to the new site.
 
 ## Development
 
